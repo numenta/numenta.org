@@ -3,7 +3,7 @@
 
 [![Season of NuPIC 2014 logo]({{ site.baseurl }}/images/son/son2014-logo.png)]({{ site.baseurl }}/son)
 
-## Student Registration is *closed*.
+## The 2014 Season of NuPIC is [over]({{ site.baseurl }}/blog/2014/09/02/season-of-nupic-2014-report.html).
 
 <h2 id="countdown-label">
 </h2>
@@ -34,8 +34,8 @@ For general information about Season of NuPIC, see our [main SoN page](../).
     <dd>May 1 - August 11</dd>
     <dt>Mid-Term Progress Report Due</dt>
     <dd>June 15</dd>
-    <dt class="highlight">Project Reports Due</dt>
+    <dt>Project Reports Due</dt>
     <dd>August 18</dd>
-    <dt>Post-Mortem Report</dt>
-    <dd>September 1</dd>
+    <dt><a href="{{ site.baseurl }}/blog/2014/09/02/season-of-nupic-2014-report.html">Post-Mortem Report</a></dt>
+    <dd>September 2</dd>
 </dl>

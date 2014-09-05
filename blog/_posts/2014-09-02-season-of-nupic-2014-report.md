@@ -4,7 +4,7 @@ title: Season of NuPIC 2014 Report
 category: blog
 ---
 
-The [2014 Season of NuPIC]({{ site.baseurl }}/son/2014) is officially over, and out of the [seven initially approved projects](https://github.com/numenta/nupic/wiki/SoN-2014-Projects), we have two that have produced a final report. In this blog post, I'll be introducing you to those two projects and the students that produced them.
+The [2014 Season of NuPIC]({{ site.baseurl }}/son/2014) is officially over, and out of the [seven initially approved projects](https://github.com/numenta/nupic/wiki/SoN-2014-Projects), we have two that have produced a final report. In this blog post, I'll be introducing you to those two projects and the students who produced them.
 
 ## Successful Projects
 
@@ -54,6 +54,7 @@ All of the work done by Season of NuPIC students was accomplished by volunteers,
 > - Mentor: [Matt Taylor](http://github.com/rhyolight)
 > - Repository: [https://github.com/fergalbyrne/nupic.kaggle-eeg](https://github.com/fergalbyrne/nupic.kaggle-eeg)
 > - Wiki: [https://github.com/numenta/nupic/wiki/Epilepsy-Seizure-Prediction](https://github.com/numenta/nupic/wiki/Epilepsy-Seizure-Prediction)
+> - [Mid-Term Report](https://github.com/numenta/nupic/wiki/SoN-2014-Mid-Term-Reports#epilepsy-seizure-prediction)
 
 This project got off to a good start, but lost steam around mid-term. Although the Kaggle competition is now closed (and we didn't submit an entry), Anubhav is planning on continuing his work on seizure prediction with EEG data. If nothing else, we all learned a lot about EEG data formats. The hard part seemed to be getting the EEG data aggregated into a lighter data format that NuPIC could understand. EEG data is *dense!*
 

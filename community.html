@@ -48,6 +48,49 @@ title: Open Source Community
         float: right;
         margin-left: 20px;
     }
+    .social > a {
+      background: #29aae2;
+      border-radius: 50%;
+      &:hover {
+        background: darken(#29aae2, 15%);
+      }
+    }
+    .social-lg > a {
+      border: 1.5rem #29aae2 solid;
+      margin-right: 0.66rem;
+      padding: 0 0 0.3rem 0.2rem;
+      @media (max-width: 768px) {
+        border: 1.25rem #29aae2 solid;
+        margin-right: 0.1rem;
+        padding: 0 0.2rem 0.2rem 0.2rem;
+      }
+      &:hover {
+        border: 1.5rem darken(#29aae2, 15%) solid;
+        @media (max-width: 768px) {
+          border: 1.25rem darken(#29aae2, 15%) solid;
+        }
+      }
+      > img {
+        height: 20px;
+        width: 20px;
+        @media (max-width: 768px) {
+          height: 17px;
+          width: 17px;
+        }
+      }
+    }
+    .social-sm > a {
+      border: 0.25rem #29aae2 solid;
+      padding: 0 0.6rem 0.3rem 0.6rem;
+      &:hover {
+        border: 0.25rem darken(#29aae2, 15%) solid;
+      }
+      > img {
+        height: 13px;
+        width: 13px;
+      }
+    }
+
 </style>
 
 <div id="fb-root"></div>
@@ -160,56 +203,14 @@ title: Open Source Community
 
     <section>
         <h2 id="social_media">Social Media</h2>
-
-        <h3><a href="http://twiter.com/numenta">Twitter</a></h3>
-
-        <a class="twitter-timeline" href="https://twitter.com/numenta" data-widget-id="332947348261060608">Tweets by @numenta</a>
-
-        <br/>
-        <br/>
-
-        <h3><a href="https://www.facebook.com/pages/Numenta/321559142118">Facebook</a></h3>
-
-        <div>
-            <div class="fb-follow" data-href="https://www.facebook.com/pages/Numenta/321559142118" data-show-faces="true" data-width="450"></div>
+        <div class="social social-lg">
+            <a href="https://www.facebook.com/pages/Numenta/321559142118"><img src="{{ site.baseurl }}/images/social/facebook.png" alt="Numenta on Facebook" /></a>
+            <a href="http://twitter.com/numenta"><img src="{{ site.baseurl }}/images/social/twitter.png" alt="Numenta on Twitter" /></a>
+            <a href="http://plus.google.com/+NumentaOrg"><img src="{{ site.baseurl }}/images/social/googleplus.png" alt="NuPIC on Google+" /></a>
+            <a href="http://www.meetup.com/Numenta-Platform-for-Intelligent-Computing-Events/"><img src="{{ site.baseurl }}/images/social/meetup.png" alt="NuPIC on Meetup" /></a>
+            <a href="http://stackoverflow.com/tags/nupic/info"><img src="{{ site.baseurl }}/images/social/stackoverflow.png" alt="NuPIC on Stack Overflow" /></a>
+            <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA"><img src="{{ site.baseurl }}/images/social/youtube.png" alt="NuPIC on YouTube" /></a>
         </div>
-
-        <br/>
-        <br/>
-
-        <h3><a href="http://www.flickr.com/photos/107852893@N04/">Flickr</a></h3>
-
-        <div id="flickr_badge_wrapper"><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=latest&size=s&layout=x&source=user&user=107852893@N04"></script></div><br/><br/>
-
-        <h3><a href="http://stackoverflow.com/tags/nupic/info">Stackoverflow</a></h3>
-
-        <p/>The latest questions about NuPIC on Stackoverflow are listed here.
-
-        <table><tbody><tr>
-            <td><img src="{{ site.baseurl }}/images/stackoverflow.png"></td>
-            <td><div id="so-feed"></div></td>
-        </tr></tbody></table>
-        
-        <br/><br/>
-
-        <table><tbody>
-            <tr>
-                <td>
-                    <h3><a href="http://www.meetup.com/Numenta-Platform-for-Intelligent-Computing-Events/">Meetup</a></h3>
-                </td>
-                <td>
-                    <h3><a href="http://plus.google.com/+NumentaOrg">Google+</a></h3>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <iframe width="225" height="430" src="http://meetu.ps/1YDGKM" frameborder="0"></iframe>
-                </td>
-                <td>
-                    <div class="g-page" data-href="//plus.google.com/100642636108337517466" data-rel="publisher"></div>
-                </td>
-            </tr>
-        </tbody></table>
     </section>
 
 </section>

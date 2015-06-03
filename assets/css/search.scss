@@ -1,0 +1,12 @@
+---
+---
+
+/**
+ * Search page CSS/SASS visual stylesheets
+ */
+
+$baseurl: "{{ site.baseurl }}";
+
+@import 'base/variables';
+
+@import 'search';

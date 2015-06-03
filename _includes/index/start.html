@@ -1,0 +1,73 @@
+<span id="start" class="anchor"></span>
+<div class="arrow-down"></div>
+<section class="start">
+  <div class="container">
+
+    <h2>Start</h2>
+
+    <div class="row">
+      <div class="col-sm-8">
+        {% include base/markdown.html file='start.intro.md' %}
+      </div>
+      <div class="col-sm-4 text-center icon">
+        <i class="fa fa-4x fa-sign-in"></i>
+      </div>
+    </div><!-- .row -->
+
+    <div class="row">
+      <div class="col-sm-6 col-lg-4 download">
+
+        <h5>Download</h5>
+        <div class="text-center">
+
+          <form action="{{ site.data.url.ext.downloads }}">
+            <button type="submit" class="btn-primary">
+              <strong>
+                <i class="fa fa-download"></i> Download NuPIC
+              </strong>
+              <div>
+                <span id="ver">All Versions</span> |
+                <span id="os">Source Code</span>
+              </div>
+            </button>
+          </form>
+
+          <div class="notes">
+            <div>
+              {% include base/markdown.html file='start.download.more.md' %}
+            </div>
+            <div class="github">
+              {% include base/ghbtn.html type='star' %}
+              {% include base/ghbtn.html type='fork' %}
+            </div>
+            <div class="more">
+              {% include base/markdown.html file='start.download.next.md' %}
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-sm-6 col-lg-4 quickstart">
+
+        <h5>Quickstart</h5>
+        <div id="console">
+          {% include index/quickstart/osx.html %}
+          {% include index/quickstart/linux.html %}
+          {% include index/quickstart/windows.html %}
+        </div>
+        <div class="notes text-center">
+          {% include base/markdown.html file='start.quick.next.md' %}
+        </div>
+
+      </div>
+      <div class="col-sm-6 col-lg-4 dependencies">
+
+        <h5>Dependencies</h5>
+        {% include base/markdown.html file='dependencies.md' %}
+
+      </div>
+    </div><!-- .row -->
+
+  </div>
+</section>

@@ -1,0 +1,110 @@
+/**
+ * Custom SASS Variables and Bootstrap Variable Overrides for the site
+ */
+
+
+/**
+ * Custom Variables
+ */
+
+// Color + Grayscale
+
+$color-blue:      #29aae2;
+$color-blue-dark: #105c7b;
+$color-blue-orig: #09c;
+$color-purple:    #838;
+
+$color-white:     #fff;
+$color-lite:      #eee;
+$color-gray-lite: #ddd;
+$color-gray:      #888;
+$color-gray-dark: #555;
+$color-dark:      #222;
+$color-black:     #000;
+
+$color-shift: 5%;
+
+// Fonts
+
+$font-weight-normal:  300;
+$font-weight-bold:    600;
+
+
+/**
+ * Twitter Bootstrap 3 variable overrides:
+ *  http://getbootstrap.com/customize/
+ */
+
+// Colors
+
+$brand-primary: $color-blue;
+
+$gray-base:     $color-black;
+$gray-darker:   $color-dark;
+$gray-dark:     $color-gray-dark;
+$gray:          $color-gray;
+$gray-light:    $color-gray-lite;
+$gray-lighter:  $color-lite;
+
+// Scaffolding
+
+$body-bg:           $color-dark;
+$link-color:        $color-blue-orig;
+$link-hover-color:  lighten($color-blue, $color-shift);
+$text-color:        $color-dark;
+
+// Typography
+
+$font-family-sans-serif:  'Open Sans', sans-serif;
+$font-size-base:          16px;
+$line-height-base:        1.66;
+$headings-line-height:    $line-height-base;
+
+// Dropdown
+
+$dropdown-link-color:         $color-blue-orig;
+$dropdown-link-hover-bg:      $color-lite;
+$dropdown-link-hover-color:   $color-blue;
+$dropdown-link-active-color:  $color-blue;
+
+// Media Query Breakpoints (bootstrap defaults)
+
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+// Grid
+
+$grid-float-breakpoint: $screen-md;
+
+// Navbar
+
+$navbar-border-radius: 0;
+$navbar-default-border: 0;
+$navbar-default-bg: $color-blue-dark;
+$navbar-default-color: $color-white;
+$navbar-default-link-color: $color-white;
+$navbar-default-link-hover-color: $color-white;
+$navbar-default-link-active-bg: darken($color-blue-dark, $color-shift);
+$navbar-default-link-active-color: $color-white;
+$navbar-default-link-hover-bg: darken($color-blue-dark, $color-shift);
+$navbar-default-toggle-hover-bg: $color-blue;
+$navbar-height: 110px;
+$navbar-margin-bottom: 0;
+$navbar-padding-horizontal: 0;
+
+
+/**
+ * Open Sans webfont (npm open-sands) sass variable overrides
+ */
+
+$open-sans-path: "#{$baseurl}/node_modules/open-sands/fonts";
+
+
+/**
+ * Font Awesome icon webfont (via npm) sass variable overrides
+ */
+
+$fa-font-path:      "#{$baseurl}/node_modules/font-awesome/fonts";
+$fa-font-size-base: $font-size-base;

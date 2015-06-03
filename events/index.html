@@ -1,0 +1,51 @@
+---
+layout: default
+redirect_from: "/events.html"
+styles:
+  - "/assets/css/list.css"
+  - "/assets/css/item.css"
+title: Events
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="row">
+  <div class="col-lg-8">
+
+    <h2>Calendar</h2>
+    <iframe src="http://www.google.com/calendar/embed?src=numenta.org_3sh59v9sabutnpb8f87icnk774%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="700" height="600" frameborder="0" scrolling="no"></iframe>
+
+  </div>
+  <div class="col-lg-4">
+
+    <h2>Recurring</h2>
+    {% include base/markdown.html file='events.recur.md' %}
+
+  </div>
+</div>
+
+<h2>Upcoming</h2>
+<ul class="list-unstyled articles">
+  {% for post in site.categories.events reversed %}
+    {% if post.date >= site.time %}
+      <li>
+        {% include base/listitem.html %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>Past</h2>
+<ul class="list-unstyled articles">
+  {% for post in site.categories.events %}
+    {% if post.date < site.time %}
+      <li>
+        {% include base/listitem.html %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<a href="{{ site.baseurl }}{{ site.data.url.index }}">
+  <i class="fa fa-fw fa-angle-left"></i> Back to Home
+</a>

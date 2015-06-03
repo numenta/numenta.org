@@ -1,10 +1,11 @@
 ---
-layout: blogpost
-title: CLA Quiz Office Hour
+author: Matthew Taylor
 category: blog
+layout: item
+title: CLA Quiz Office Hour
 ---
 
-Tomorrow at 4PM Pacific, we're holding an [Office Hour](https://plus.google.com/b/100642636108337517466/events/crmrf6k58s77hlgk4v30bll8hp8) for anyone interested to join in and talk about [Hierarchical Temporal Memory]({{ site.baseurl/htm-white-paper.html }}), as implemented by Numenta within [NuPIC]({{ site.baseurl/nupic.html }}). Jeff Hawkins and Numenta VP of Engineering Subutai Ahmad will be at this event to go through the _CLA Quiz_, a serious of challenging questions about how NuPIC algorithms work. These questions were originally created for new employees and interns to research in order to better understand the CLA. Tomorrow, we're going to be asking you!
+Tomorrow at 4PM Pacific, we're holding an [Office Hour](https://plus.google.com/b/100642636108337517466/events/crmrf6k58s77hlgk4v30bll8hp8) for anyone interested to join in and talk about [Hierarchical Temporal Memory]({{ site.data.url.ext.htmpaper }}), as implemented by Numenta within [NuPIC]({{ site.baseurl }}{{ site.data.url.index }}). Jeff Hawkins and Numenta VP of Engineering Subutai Ahmad will be at this event to go through the _CLA Quiz_, a serious of challenging questions about how NuPIC algorithms work. These questions were originally created for new employees and interns to research in order to better understand the CLA. Tomorrow, we're going to be asking you!
 
 If you're interested in taking part, or just joining in to listen, please use your Google account and request an RSVP to our [Office Hour](https://plus.google.com/b/100642636108337517466/events/crmrf6k58s77hlgk4v30bll8hp8). We'll be happy to invite you. If you can't make it, the video will be <a href="http://www.youtube.com/watch?v=rSpYyUN4iP0" rel="prettyPhoto" title="NLP With NuPIC">posted on YouTube</a>.
 
@@ -35,7 +36,7 @@ If you're interested in taking part, or just joining in to listen, please use yo
         <p/>Suppose we have an input vector that is 10,000 bits long.  Suppose the spatial pooler has 500 columns, of which 50 are active at any time.
         <ol type="a">
             <li>
-                <p/>Can we distinguish many patterns, or a small number? Which patterns are likely to be confused? 
+                <p/>Can we distinguish many patterns, or a small number? Which patterns are likely to be confused?
             </li>
             <li>
                 <p/>What happens to the SDR representation if we add noise to the patterns?
@@ -62,7 +63,7 @@ These questions a bit over your head? Looking for a primer on these technologies
 
 <ul>
     <li>
-        <a href="{{ site.baseurl }}/htm-white-paper.html">HTM White Paper</a>
+        <a href="{{ site.data.url.ext.htmpaper }}">HTM White Paper</a>
     </li>
     <li>
         <a href="http://www.youtube.com/watch?v=z6r3ekreRzY" rel="prettyPhoto" title="">Tutorial: CLA Basics</a>

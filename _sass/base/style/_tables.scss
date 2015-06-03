@@ -1,0 +1,40 @@
+/**
+ * Tables
+ *
+ * The HTML Table Element `<table>` represents semantic tabular data in
+ *  two dimensions or more.
+ *
+ * See more: http://getbootstrap.com/css/#tables
+ *
+ * Markup:
+ *  <table class="table table-hover table-striped">
+ *    <thead>
+ *      <tr>
+ *        <th>#</th>
+ *        <th>First Name</th>
+ *        <th>Last Name</th>
+ *      </tr>
+ *    </thead>
+ *    <tbody>
+ *      <tr>
+ *        <td>1</td>
+ *        <td>Jane</td>
+ *        <td>Doe</td>
+ *      </tr>
+ *      <tr>
+ *        <td>2</td>
+ *        <td>John</td>
+ *        <td>Wayne</td>
+ *      </tr>
+ *      <tr>
+ *        <td>3</td>
+ *        <td>Roam</td>
+ *        <td>Earthly</td>
+ *      </tr>
+ *    </tbody>
+ *  </table>
+ *
+ * Styleguide: 4.0
+ */
+table.table {
+}

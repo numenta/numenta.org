@@ -4,8 +4,5 @@ title: Season of NuPIC
 ---
 
 <section>
-  {% capture content %}
-  {% include content/son/index.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
+  {% include base/markdown.html file='son/index.md' %}
 </section>

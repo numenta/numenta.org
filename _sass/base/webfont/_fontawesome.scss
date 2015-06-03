@@ -1,0 +1,36 @@
+@import "../node_modules/font-awesome/scss/variables";
+@import "../node_modules/font-awesome/scss/mixins";
+@import "../node_modules/font-awesome/scss/path";
+@import "../node_modules/font-awesome/scss/core";
+@import "../node_modules/font-awesome/scss/larger";
+@import "../node_modules/font-awesome/scss/fixed-width";
+@import "../node_modules/font-awesome/scss/list";
+// @import "../node_modules/font-awesome/scss/bordered-pulled";
+// @import "../node_modules/font-awesome/scss/animated";
+// @import "../node_modules/font-awesome/scss/rotated-flipped";
+@import "../node_modules/font-awesome/scss/stacked";
+@import "../node_modules/font-awesome/scss/icons";
+
+
+/**
+ * FontAwesome social icon class abstraction hack vs. Adblock Plus
+ *  https://github.com/FortAwesome/Font-Awesome/issues/1799
+ */
+.fa-social-1:before { // facebook
+  content: "\f09a";
+}
+.fa-social-2:before { // twitter
+  content: "\f099";
+}
+.fa-social-3:before { // google+
+  content: "\f0d5";
+}
+.fa-social-4:before { // meetup
+  content: "\f041";
+}
+.fa-social-5:before { // stackoverflow
+  content: "\f16c";
+}
+.fa-social-6:before { // youtube
+  content: "\f167";
+}

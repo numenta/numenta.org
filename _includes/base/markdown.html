@@ -1,0 +1,9 @@
+{% comment %}
+  Shortcut widget to include markdown text content. This lets you do it in a
+    single understandable line, rather than two ugly confusing lines.
+  @param {String} file - Filename of markdown text content file under
+    the _includes/content/ directory. Usually has .md file extension.
+{% endcomment %}
+
+{% capture rawtext %}{% include content/{{ include.file }} %}{% endcapture %}
+{{ rawtext | markdownify }}

@@ -1,0 +1,28 @@
+/**
+ * Layout
+ *
+ * The general layout and structure of this website: header, body and main
+ *  content, and footer. Each section/module will have it's own style elsewhere.
+ *
+ * Most of our Layout is controlled by Twitter Bootstrap responsive framework:
+ *  http://getbootstrap.com/
+ *
+ * Styleguide: 1.0
+ */
+body.numenta {
+  padding-top: $navbar-height;  /* bootstrap navbar fixed header */
+  position: relative;           /* bootstrap scrollspy */
+
+  /* fixed header requires anchor link adjustments */
+  .anchor {
+    display: block;
+    height: $navbar-height;
+    margin-top: 0 - $navbar-height;
+    visibility: hidden;
+    z-index: -9999;
+  }
+} // body.numenta
+
+@import 'base/layout/header';
+@import 'base/layout/content';
+@import 'base/layout/footer';

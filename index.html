@@ -1,11 +1,24 @@
 ---
-layout: default
-title: Numenta | NuPIC
+layout: base
+redirect_from:
+  - "/about.html"
+  - "/htm.html"
+  - "/nupic.html"
+  - "/community-content.html"
+  - "/community.html"
+  - "/ports.html"
+  - "/htm-white-paper.html"
+scripts:
+  - "/assets/js/index.js"
+styles:
+  - "/assets/css/index.css"
+  - "/assets/css/item.css"
+title: NuPIC | Numenta Platform for Intelligent Computing
 ---
 
-<section>
-  {% capture content %}
-  {% include content/landing.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
-</section>
+{% include index/hero.html %}
+{% include index/start.html %}
+{% include index/docs.html %}
+{% include index/theory.html %}
+{% include index/community.html %}
+{% include index/latest.html %}

@@ -1,0 +1,84 @@
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nupic-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars"></i>
+        </button>
+
+        {% include base/brand.html %}
+
+      </div>
+      <div class="collapse navbar-collapse scrollspy-nav" id="nupic-navbar-collapse">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          {% include base/navlinks.html %}
+
+          <li class="dropdown">
+            <a href="{{ site.baseurl }}{{ site.data.url.index }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <i class="fa fa-fw fa-caret-down"></i></a>
+            <ul class="dropdown-menu" role="menu">
+
+              <li>
+                <a href="{{ site.data.url.ext.downloads }}">
+                  <i class="fa fa-fw fa-download"></i> Download
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.search }}">
+                  <i class="fa fa-fw fa-search"></i> Search
+                </a>
+              </li>
+
+              <li class="divider"></li>
+
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.blog }}">
+                  <i class="fa fa-fw"></i> Blog
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.news }}">
+                  <i class="fa fa-fw"></i> News
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.events }}">
+                  <i class="fa fa-fw"></i> Events
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.media }}">
+                  <i class="fa fa-fw"></i> Media
+                </a>
+              </li>
+
+              <li class="divider"></li>
+
+              <li>
+                <a href="{{ site.data.url.ext.wiki }}">
+                  <i class="fa fa-fw fa-edit"></i> Wiki
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.faq }}">
+                  <i class="fa fa-fw fa-question-circle"></i> FAQ
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.url.ext.help }}">
+                  <i class="fa fa-fw fa-envelope-o"></i> Help
+                </a>
+              </li>
+
+            </ul> <!-- .dropdown-menu -->
+          </li> <!-- .dropdown -->
+
+        </ul> <!-- .navbar-nav -->
+
+      </div> <!-- .collapse -->
+    </div> <!-- .container -->
+  </nav>
+</header>

@@ -1,0 +1,6 @@
+{
+  "css":          [ "/assets/css/base.css" ],
+  "destination":  "..",
+  "source":       [ "../../assets/css", "../../_sass/base" ],
+  "template":     "templates/nupic-custom/template"
+}

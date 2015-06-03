@@ -30,15 +30,11 @@ title: 2015 Spring Hackathon Announcements
   <h2 id="countdown-label"></h2>
   <div id="countdown"></div>
   <br/><br/>
-  {% capture content %}
-  {% include content/hackathon/2015/may/ann.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
-    <p style="font-size:26pt">
-        Hashtag: <strong>#HackNuPIC</strong>
-    </p>
+  {% include base/markdown.html file='hackathon/2015/may/ann.md' %}
+  <p style="font-size:26pt">
+    Hashtag: <strong>#HackNuPIC</strong>
+  </p>
 </section>
-
 
 <script src="{{ site.baseurl }}/javascripts/auto-reload.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/javascripts/countdown.js" type="text/javascript"></script>

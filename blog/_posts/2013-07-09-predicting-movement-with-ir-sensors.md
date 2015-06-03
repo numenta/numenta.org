@@ -1,30 +1,30 @@
 ---
-layout: blogpost
-title: Predicting Movement with IR Sensors
-guest: Erik Blas
+author: Erik Blas
 category: blog
+layout: item
 redirect_from: "/news/2013/07/09/predicting-movement-with-ir-sensors.html"
+title: Predicting Movement with IR Sensors
 ---
 
 ### My Experience at the First NuPIC Hackathon
 
-##### a guest blog post by **[{{ page.guest }}](https://github.com/ravaa)**
+##### a guest blog post by **[{{ page.author }}](https://github.com/ravaa)**
 
-On April 24, 2013 Numenta hosted their first hackathon, a private event commemorating the recent release of NuPIC (Numenta Platform for Intelligent Computing) to the OSS world. 
+On April 24, 2013 Numenta hosted their first hackathon, a private event commemorating the recent release of NuPIC (Numenta Platform for Intelligent Computing) to the OSS world.
 
 You can find the project on [Github](http://github.com/numenta/nupic), and more information on the the [main page of this site](http://numenta.org).
 
 One could not begin to describe my initial excitement at receiving an invitation to attend. I've been inspired by Jeff Hawkin's work since I stumbled across his [2007 TED talk](http://www.ted.com/talks/jeff_hawkins_on_how_brain_science_will_change_computing.html), and later reading his book [On Intelligence](http://www.amazon.com/Jeff-Hawkins/e/B001KHNZ7C/ref=sr_ntt_srch_lnk_1?qid=1373225752&sr=8-1).
 
-This being my first hackathon, I decided to just assume it was going to be like a typical crunch time day. Introduction pow wow and problem scoping, each person swarms or picks up their piece of the puzzle, and we go about the process of turning `b1p2` (1 beer to 2 pizza slices) into code. 
+This being my first hackathon, I decided to just assume it was going to be like a typical crunch time day. Introduction pow wow and problem scoping, each person swarms or picks up their piece of the puzzle, and we go about the process of turning `b1p2` (1 beer to 2 pizza slices) into code.
 
-This pretty much took place in fits and starts, as this is the initial offering of NuPIC we were working with. Documentation was (still is) sparse, and there were no community established workflows for getting new **OPF clients** off the ground. Up until just a few weeks prior, all the code we were working with was in use only for Grok Solutions' clients. 
+This pretty much took place in fits and starts, as this is the initial offering of NuPIC we were working with. Documentation was (still is) sparse, and there were no community established workflows for getting new **OPF clients** off the ground. Up until just a few weeks prior, all the code we were working with was in use only for Grok Solutions' clients.
 
 Strangers in a strange land, we were.
 
 There was a lot of confusion on just how to use the software. Numenta provided a [VM with pre-baked environments](https://github.com/numenta/nupic/wiki/Running-Nupic-in-a-Virtual-Machine) using [Vagrant](http://www.vagrantup.com/) and [Virtual Box](https://www.virtualbox.org/). A few successfully built the software on their own platform of choice. The static binding of certain libs and some of the build steps had a propensity to make porting difficult, as well as the reliance on Python 2.6.
 
-Once building was no longer an issue (in general), the next part was getting all of the tests and experiments running. Environment issues played the lead gremlin in this instance, but once the proper library paths were exported we were victorious! 
+Once building was no longer an issue (in general), the next part was getting all of the tests and experiments running. Environment issues played the lead gremlin in this instance, but once the proper library paths were exported we were victorious!
 
 #### The OPF
 
@@ -57,18 +57,18 @@ Here's mine:
 
 #### Implications Gleaned from the Demos
 
-One key thing that jumped out at me, is the different types of data we were able to feed to NuPIC models, and achieve high value results. With the only real project-specific work being contained in model parameters! 
+One key thing that jumped out at me, is the different types of data we were able to feed to NuPIC models, and achieve high value results. With the only real project-specific work being contained in model parameters!
 
 Everything from MIDI file data to record classification strings, and NuPIC munched on them all. All one needs is an encoder to handle the data types, and you can go far with the encoders provided by the OPF.
 
 ### Concluding Thoughts, and What I'm Up To
 
-The immensely gracious hosting and helpfulness of the Numenta staff cannot be overstated! Beyond the gloriously delicious food, endless supply of beer and other essentials, and the ample and comfortable workspaces, the conversations over NuPIC and the work going forward blew me away the most. 
+The immensely gracious hosting and helpfulness of the Numenta staff cannot be overstated! Beyond the gloriously delicious food, endless supply of beer and other essentials, and the ample and comfortable workspaces, the conversations over NuPIC and the work going forward blew me away the most.
 
 Special shout out to:
-* [Ian](http://nupic.markmail.org/search/?q=from%3Aidanforth%40embodiedai.com), for lending me your parts and helping me refine my project! 
+* [Ian](http://nupic.markmail.org/search/?q=from%3Aidanforth%40embodiedai.com), for lending me your parts and helping me refine my project!
 * [Matt](http://nupic.markmail.org/search/from:matt%40numenta.org), your tireless work in the community is awesome man. Do you not sleep?
-* [Jeff](http://nupic.markmail.org/search/from:jhawkins%40numenta.org), your efforts continue to inspire! Thank you for opening this project to the community. 
+* [Jeff](http://nupic.markmail.org/search/from:jhawkins%40numenta.org), your efforts continue to inspire! Thank you for opening this project to the community.
 * [Subutai](http://nupic.markmail.org/search/from:subutai%40numenta.org), for your conversations and explanations.
 * [Scott](http://nupic.markmail.org/search/from:scott%40numenta.org), I'm not sure many of our projects would have gotten off the ground without your help and quick production of simple examples.
 * Office Management Staff, for keeping us alive and making everyone feel at home!
@@ -79,13 +79,13 @@ Maybe it was the sleep deprivation (both leading up to and during the event), bu
 
 ### *Woah*
 
-At this point, I plan to continue solving the build problem. Having NuPIC build easily across platforms is vital for widespread adoption. We need more minds on this project to extend and improve our understanding of this model of intelligence. 
+At this point, I plan to continue solving the build problem. Having NuPIC build easily across platforms is vital for widespread adoption. We need more minds on this project to extend and improve our understanding of this model of intelligence.
 
 I'm also working on distributing model work load and selective evolution. I'll save the details for posts as I build and work on these, but the bit "selective evolution" bears some explanation.
 
 Selective evolution of models is the idea of running multiple model instances, with the same encoders tuned differently, being fed the same data. One chooses the model with the best predictive performance to continue forward.
 
-I'd recommend anyone interested head into the **<a href="irc://irc.freenode.net/nupic">#nupic</a>** channel on IRC and post to the mailing list. I can be found on IRC as @rava, and also [on the mailing list](http://nupic.markmail.org/search/?q=erik#query:erik%20from%3A%22Erik%20Blas). 
+I'd recommend anyone interested head into the **<a href="irc://irc.freenode.net/nupic">#nupic</a>** channel on IRC and post to the mailing list. I can be found on IRC as @rava, and also [on the mailing list](http://nupic.markmail.org/search/?q=erik#query:erik%20from%3A%22Erik%20Blas).
 
 Also, here is [my personal fork of NuPIC](http://github.com/ravaa/nupic) (it's a mess in there).
 

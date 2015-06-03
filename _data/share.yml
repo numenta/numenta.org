@@ -1,0 +1,12 @@
+-
+  icon: fa-social-1
+  link: http://www.facebook.com/sharer/sharer.php?u=
+  name: Facebook
+-
+  icon: fa-social-2
+  link: http://twitter.com/share?url=
+  name: Twitter
+-
+  icon: fa-social-3
+  link: https://plus.google.com/share?hl=en&url=
+  name: Google+

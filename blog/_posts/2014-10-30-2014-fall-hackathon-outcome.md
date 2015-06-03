@@ -1,7 +1,8 @@
 ---
-layout: blogpost
-title: 2014 Fall Hackathon Outcome
+author: Matthew Taylor
 category: blog
+layout: item
+title: 2014 Fall Hackathon Outcome
 ---
 
 <div class="blog image">
@@ -9,18 +10,41 @@ category: blog
     <p>Thanks to <a href="https://twitter.com/jeffreyfohl">Jeff Fohl</a> for the excellent logo design!</p>
 </div>
 
-On October 18-19 of 2014, we held our fourth NuPIC Hackathon in San Jose at [Pinger, Inc](http://pinger.com). It was a 36-hour event, starting at 10AM on Saturday, and ending with hack demos at 4PM Sunday afternoon. We started with a Kickoff presentation to go over hackathon protocol, then jumped right into hacking. There were some interesting themes this time. A lot more people tried using [cortical.io](http://cortical.io)'s word fingerprinting service for natural language processing hacks. We also had a lot of interest in EEG analysis with NuPIC, which seems to be a hot topic within the community. And we even had another robotics demo!
+On October 18-19 of 2014, we held our fourth NuPIC Hackathon in San Jose at
+[Pinger, Inc](http://pinger.com). It was a 36-hour event, starting at 10AM on
+Saturday, and ending with hack demos at 4PM Sunday afternoon. We started with a
+Kickoff presentation to go over hackathon protocol, then jumped right into
+hacking. There were some interesting themes this time. A lot more people tried
+using [cortical.io](http://cortical.io)'s word fingerprinting service for
+natural language processing hacks. We also had a lot of interest in EEG analysis
+with NuPIC, which seems to be a hot topic within the community. And we even had
+another robotics demo!
 
-I think I say this after every NuPIC hackathon we host, but this hackathon was the best one yet! We had well over 50 participants, 16 demos, and a ton of fun and community bonding. It was really nice to see some new faces at this hackathon. I love meeting the people of our community!
+I think I say this after every NuPIC hackathon we host, but this hackathon was
+the best one yet! We had well over 50 participants, 16 demos, and a ton of fun
+and community bonding. It was really nice to see some new faces at this
+hackathon. I love meeting the people of our community!
 
-Once again, we had attendees from all over the world: Amsterdam, China, Austria, Ireland, not to mention from all over the United States. I was really impressed how with each hackathon our community gets a better understanding of NuPIC and how it can be used to tackle many different kinds of problems. Even though we had a high percentage of new hackers this time, I could really see the light bulbs turning on as I talked to people about their hackathon ideas. 
+Once again, we had attendees from all over the world: Amsterdam, China, Austria,
+Ireland, not to mention from all over the United States. I was really impressed
+how with each hackathon our community gets a better understanding of NuPIC and
+how it can be used to tackle many different kinds of problems. Even though we
+had a high percentage of new hackers this time, I could really see the light
+bulbs turning on as I talked to people about their hackathon ideas.
 
 I've separated this blog post into sections:
 
-- [Photos](#photos): Taken at the hackathon ([see them all on Flickr](https://www.flickr.com/photos/nupic/sets/72157648601989450/))
-- [Testimonials](#testimonials): What people have been saying about the hackathon
-- [Sessions](#sessions): Videos of informational talks given by Numenta and guests
-- [Demos](#demos): Hackathon demos presented at the end
+* <i></i> [Photos](#photos): Taken at the hackathon
+  ([see them all on Flickr](https://www.flickr.com/photos/nupic/sets/72157648601989450/))
+
+* <i></i> [Testimonials](#testimonials): What people have been saying about
+  the hackathon
+
+* <i></i> [Sessions](#sessions): Videos of informational talks given by Numenta
+  and guests
+
+* <i></i> [Demos](#demos): Hackathon demos presented at the end
+
 
 ## Photos
 
@@ -77,7 +101,9 @@ I've separated this blog post into sections:
 
 ## Testimonials
 
-More people than ever, and a more diverse community than ever. We had pro hackers, students, software professionals, a neurologist, and even some new to programming in general. 
+More people than ever, and a more diverse community than ever. We had pro
+hackers, students, software professionals, a neurologist, and even some new to
+programming in general.
 
 <ul class="testimonials">
     <li>
@@ -110,9 +136,13 @@ More people than ever, and a more diverse community than ever. We had pro hacker
     </li>
 </ul>
 
+
 ## Sessions
 
-We only gave a few presentations from Numenta and friends for hackathon participants to attend in order to give more time for attendees to work on their projects. You can watch all the recordings we took at the hackathon [in this playlist](https://www.youtube.com/playlist?list=PL3yXMgtrZmDo4uTtO8Fqialyf6O1szHaT).
+We only gave a few presentations from Numenta and friends for hackathon
+participants to attend in order to give more time for attendees to work on their
+projects. You can watch all the recordings we took at the hackathon
+[in this playlist](https://www.youtube.com/playlist?list=PL3yXMgtrZmDo4uTtO8Fqialyf6O1szHaT).
 
 <div class="demo">
 
@@ -225,11 +255,20 @@ We only gave a few presentations from Numenta and friends for hackathon particip
 
 </div>
 
+
 ## Demos
 
-Games, physics, robotics, geology, natural language, geospatial analysis... demos at this hackathon spanned a large breadth of topics. We were really impressed with the types of things hackers attempted to perform with NuPIC. When we have hackathons, it's a chance for people interested in NuPIC and HTM to push the boundaries of HTM technology and really see what it might be capable of. I always come away inspired and excited about the future of NuPIC and HTM, and this hackathon was no exception at all.
+Games, physics, robotics, geology, natural language, geospatial analysis...
+demos at this hackathon spanned a large breadth of topics. We were really
+impressed with the types of things hackers attempted to perform with NuPIC. When
+we have hackathons, it's a chance for people interested in NuPIC and HTM to push
+the boundaries of HTM technology and really see what it might be capable of. I
+always come away inspired and excited about the future of NuPIC and HTM, and
+this hackathon was no exception at all.
 
-Not all hacks are success stories, but each one is a learning experience. We'll never know what can be achieved with cortically-inspired machine intelligence unless we try to solve hard problems. 
+Not all hacks are success stories, but each one is a learning experience. We'll
+never know what can be achieved with cortically-inspired machine intelligence
+unless we try to solve hard problems.
 
 <div class="demo">
 
@@ -240,7 +279,7 @@ Not all hacks are success stories, but each one is a learning experience. We'll 
     <h3><a id="DEMO_1" href="#DEMO_1">Pendulum</a></h3>
 
     <h4>
-        Alejandro Schuler, Andrew Morrison, Shashwat Kandadai 
+        Alejandro Schuler, Andrew Morrison, Shashwat Kandadai
     </h4>
 
     <ul>
@@ -573,10 +612,17 @@ Not all hacks are success stories, but each one is a learning experience. We'll 
 
 </div>
 
-As the NuPIC community grows, I continue to be awed and inspired by its passion and perseverance. A sincere thank you to all who have participated on our mailing lists, our code repositories, and our hackathons. You folks are the reason we've gone open source, and the reason we continue to thrive. I see a bright future for us, and I truly believe we will lead the path forward to truly intelligent machines built on neocortical principles. 
+As the NuPIC community grows, I continue to be awed and inspired by its passion
+and perseverance. A sincere thank you to all who have participated on our
+mailing lists, our code repositories, and our hackathons. You folks are the
+reason we've gone open source, and the reason we continue to thrive. I see a
+bright future for us, and I truly believe we will lead the path forward to truly
+intelligent machines built on neocortical principles.
 
-It's not an easy road, but you are the **pioneers** helping us pave it for the masses that will follow. I had a wonderful time interacting with all of you, and I look forward to even more ground-breaking work at the next hackathon in Spring 2015.
-
+It's not an easy road, but you are the **pioneers** helping us pave it for the
+masses that will follow. I had a wonderful time interacting with all of you, and
+I look forward to even more ground-breaking work at the next hackathon in Spring
+2015.
 
 > Matt Taylor <br/>
 > Open Source Community Flag-Bearer <br/>
@@ -584,4 +630,4 @@ It's not an easy road, but you are the **pioneers** helping us pave it for the m
 
 [Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2ktnpt/2014_fall_nupic_hackathon_outcome/)
 
-<small><strong>By the way!</strong> You can see all the videos and photos taken at every hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and <a href="https://www.flickr.com/photos/nupic/">Flickr page</a>.</small>
+<small>**By the way!** You can see all the videos and photos taken at every hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and <a href="https://www.flickr.com/photos/nupic/">Flickr page</a>.</small>

@@ -1,0 +1,47 @@
+overview:
+  -
+    link: http://numenta.com/learn/principles-of-hierarchical-temporal-memory.html
+    name: Principles of Hierarchical Temporal Memory (HTM)
+    desc: Foundations of Machine Intelligence
+  -
+    link: http://numenta.com/learn/applications-of-hierarchical-temporal-memory.html
+    name: Applications of HTM
+  -
+    link: http://numenta.com/learn/getting-started-with-numenta-technology.html
+    name: Getting Started with Numenta Technology
+  -
+    link: https://github.com/numenta/nupic/wiki/Hierarchical-Temporal-Memory-Theory
+    name: HTM Theory
+    desc: Wiki Section
+  -
+    icon: fa-file-pdf-o
+    link: http://numenta.com/learn/hierarchical-temporal-memory-white-paper.html
+    name: HTM Whitepaper
+    desc: PDF Download
+  -
+    icon: fa-book
+    link: http://numenta.com/learn/on-intelligence.html
+    name: On Intelligence
+    desc: Book
+
+advanced:
+  -
+    link: http://numenta.com/learn/what-the-brain-says-about-machine-intelligence.html
+    name: What the Brains Says about Machine Intelligence
+  -
+    link: http://numenta.com/learn/science-of-anomaly-detection.html
+    name: Science of Anomaly Detection
+  -
+    link: http://numenta.com/learn/sparse-distributed-representations.html
+    name: Sparse Distributed Representations
+    desc: Our Brain's Data Structure
+  -
+    link: http://numenta.com/learn/properties-of-sparse-distributed-representations.html
+    name: Properties of SDRs and their Application to HTM
+  -
+    link: http://numenta.com/learn/hierarchical-temporal-memory-basics-tutorial.html
+    name: HTM Learning Algorithms Tutorial
+    desc: Algorithm Basics
+  -
+    link: http://lists.numenta.org/mailman/listinfo/nupic-theory_lists.numenta.org
+    name: NuPIC Theory Mailing List

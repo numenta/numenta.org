@@ -1,7 +1,8 @@
 ---
-layout: blogpost
-title: 2013 Fall Hackathon Outcome
+author: Matthew Taylor
 category: blog
+layout: item
+title: 2013 Fall Hackathon Outcome
 ---
 
 <div class="image">
@@ -9,7 +10,7 @@ category: blog
     <p>A panoramic view of the hackathon space at Tagged.</p>
 </div>
 
-Last weekend's hackathon was a lot of fun. Thanks to everyone for coming out. We gave several educational presentations and held some working sessions. The participation from the attendees was outstanding. 
+Last weekend's hackathon was a lot of fun. Thanks to everyone for coming out. We gave several educational presentations and held some working sessions. The participation from the attendees was outstanding.
 
 Thanks again to <a href="http://about.tagged.com">Tagged</a>, who generously donated some of their workspace to us for the event. The Tagged offices are very cool, and in a great part of San Francisco.
 
@@ -149,7 +150,7 @@ In addition to the <a href="http://www.youtube.com/watch?v=X4XjYXFRIAQ&amp;start
     <h3>
         <a id="imagine_that" href="#imagine_that">Imagine That!</a>
     </h3>
-    
+
     <h4>Eron Wright</h4>
 
     <ul>
@@ -171,7 +172,7 @@ In addition to the <a href="http://www.youtube.com/watch?v=X4XjYXFRIAQ&amp;start
     <h3>
         <a id="word_sdrs" href="#word_sdrs">Visualizing Word SDR Predictions</a>
     </h3>
-    
+
     <h4>Matt Taylor</h4>
 
     <ul>
@@ -187,12 +188,12 @@ In addition to the <a href="http://www.youtube.com/watch?v=X4XjYXFRIAQ&amp;start
 </div>
 
 <div class="demo">
-    <a href="http://www.flickr.com/photos/107852893@N04/10709130084/" title="NuPIC 2013 Fall Hackathon by numenta, on Flickr"><img src="http://farm8.staticflickr.com/7354/10709130084_7989b4d476_n.jpg" width="320" height="213" alt="NuPIC 2013 Fall Hackathon"></a> 
+    <a href="http://www.flickr.com/photos/107852893@N04/10709130084/" title="NuPIC 2013 Fall Hackathon by numenta, on Flickr"><img src="http://farm8.staticflickr.com/7354/10709130084_7989b4d476_n.jpg" width="320" height="213" alt="NuPIC 2013 Fall Hackathon"></a>
 
     <h3>
         <a id="pilot" href="#pilot">Pilot</a>
     </h3>
-    
+
     <h4>Chetan Surpur, Jay Gokhale, Josh Rose, Xuyen On, Eron Wright</h4>
 
     <ul>
@@ -214,7 +215,7 @@ In addition to the <a href="http://www.youtube.com/watch?v=X4XjYXFRIAQ&amp;start
     <h3>
         <a id="sp_viewer" href="#sp_viewer">Spatial Pooler Visualization</a>
     </h3>
-    
+
     <h4>Ian Danforth</h4>
 
     <ul>
@@ -235,7 +236,7 @@ In addition to the <a href="http://www.youtube.com/watch?v=X4XjYXFRIAQ&amp;start
     <h3>
         <a id="fox" href="#fox">What does the fox eat?</a>
     </h3>
-    
+
     <h4>Subutai Ahmad</h4>
 
     <ul>

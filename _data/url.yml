@@ -1,0 +1,101 @@
+#
+# URLs. Few more in other data .yml files.
+#
+
+
+### Internal
+
+# main
+
+index:      /
+start:      /#start
+docs:       /#docs
+theory:     /#theory
+community:  /#community
+latest:     /#latest
+social:     /#more
+
+# posts and feeds
+
+blog:   /blog/
+events: /events/
+media:  /media/
+news:   /news/
+
+rss:
+  blog:    /blog/index.xml
+  news:    /news/index.xml
+  events:  /events/index.xml
+  media:   /media/index.xml
+
+# other
+
+code:     /licenses/code/
+committs: /committers/
+contribs: /contributors/
+faq:      /faq/
+hack:     /hack/
+licenses: /licenses/
+lists:    /lists/
+refapi:   /docs/nupic/
+refcore:  /docs/nupic.core/
+refjava:  /docs/htm.java/
+report:   /report/
+search:   /search/
+sitemap:  /sitemap/
+
+
+### External
+
+ext:
+
+  # mutable + versioned
+
+  download: https://github.com/numenta/nupic/releases/tag/0.2.2
+  package:  https://s3-us-west-2.amazonaws.com/artifacts.numenta.org/numenta/nupic/releases/nupic-0.2.2-cp27-none-linux_x86_64.whl
+
+  # numenta
+
+  help:     mailto:help@numenta.org
+  learning: http://numenta.com/learn/
+  grok:     http://numenta.com/grok/
+  htmpaper: http://numenta.com/learn/hierarchical-temporal-memory-white-paper.html
+  issues:   http://status.numenta.org/issues
+  moreapps: http://numenta.com/#applications
+  privacy:  http://numenta.com/legal/privacy.html
+  roadmap:  http://status.numenta.org/roadmap
+  terms:    http://numenta.com/legal/terms.html
+
+  # lists
+
+  list:
+    general: http://lists.numenta.org/mailman/listinfo/nupic_lists.numenta.org
+    hackers: http://lists.numenta.org/mailman/listinfo/nupic-hackers_lists.numenta.org
+    theory:  http://lists.numenta.org/mailman/listinfo/nupic-theory_lists.numenta.org
+
+    archive:
+      general: http://lists.numenta.org/pipermail/nupic_lists.numenta.org/
+      hackers: http://lists.numenta.org/pipermail/nupic-hackers_lists.numenta.org/
+      theory:  http://lists.numenta.org/pipermail/nupic-theory_lists.numenta.org/
+
+  # github, mostly wiki
+
+  build:      https://github.com/numenta/nupic/wiki/Installing-and-Building-NuPIC
+  communal:   https://github.com/numenta/nupic/wiki/Community-Content
+  contrib:    https://github.com/numenta/nupic/wiki/Contributing-to-NuPIC
+  downloads:  https://github.com/numenta/nupic/releases
+  ghbtns:     https://ghbtns.com/github-btn.html
+  learn:      https://github.com/numenta/nupic/wiki/Learning-NuPIC
+  livechat:   https://github.com/numenta/nupic/wiki/NuPIC-Community#live-chat
+  ports:      https://github.com/numenta/nupic/wiki/HTM-Ports
+  readme:     https://github.com/numenta/nupic/blob/master/README.md
+  repo:       https://github.com/numenta/nupic/
+  source:     https://github.com/numenta/numenta.org
+  theories:   https://github.com/numenta/nupic/wiki/Hierarchical-Temporal-Memory-Theory
+  tutorials:  https://github.com/numenta/nupic/wiki/Using-NuPIC#tutorials
+  wiki:       https://github.com/numenta/nupic/wiki
+  wikicomm:   https://github.com/numenta/nupic/wiki/NuPIC-Community
+
+  # non-numenta domains
+
+  gitter: https://gitter.im/numenta/public

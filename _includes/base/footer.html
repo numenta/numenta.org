@@ -1,0 +1,110 @@
+<span id="more" class="anchor"></span>
+<footer>
+
+  <!-- footer social links -->
+  <section class="social">
+    <div class="container">
+      <ul class="list-inline">
+        {% for social in site.data.social %}
+          <li>
+            <a href="{{ social.link }}" title="{{ social.name }}">
+              <div class="fa-stack fa-2x">
+                <i class="fa fa-stack-2x fa-circle"></i>
+                <i class="fa fa-stack-1x {{ social.icon }}"></i>
+              </div>
+              <span>{{ social.name }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <!-- grok promote AND nav links -->
+  <section class="nav">
+    <div class="container">
+      <div class="row">
+
+        <!-- grok/product promote -->
+        <aside class="col-sm-6 col-sm-push-6">
+          <a href="{{ site.data.url.ext.grok }}">
+            <img src="{{ site.baseurl }}/assets/img/base/logo/grok-logo-dark.svg" alt="Grok Logo" />
+          </a>
+          {% include base/markdown.html file='promo.md' %}
+          <a href="{{ site.data.url.ext.moreapps }}">
+            View More NuPIC Applications <i class="fa fa-fw fa-angle-right"></i>
+          </a>
+        </aside>
+
+        <!-- footer nav links -->
+        <nav class="col-sm-6 col-sm-pull-6">
+          <h6>Site Navigation</h6>
+          <div class="row">
+            <ul class="list-unstyled col-xs-6 col-sm-6 col-md-5">
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.index }}" title="Home">
+                  <i class="fa fa-fw fa-home"></i> Home
+                </a>
+              </li>
+              {% include base/navlinks.html %}
+            </ul>
+            <ul class="list-unstyled col-xs-6 col-sm-6 col-md-7">
+              <li>
+                <a href="{{ site.data.url.ext.downloads }}">
+                  <i class="fa fa-fw fa-download"></i> Download
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.search }}">
+                  <i class="fa fa-fw fa-search"></i> Search
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.url.ext.wiki }}">
+                  <i class="fa fa-fw fa-edit"></i> Wiki
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.sitemap }}">
+                  <i class="fa fa-fw fa-sitemap"></i> Sitemap
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.baseurl }}{{ site.data.url.faq }}">
+                  <i class="fa fa-fw fa-question-circle"></i> FAQ
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.url.ext.help }}">
+                  <i class="fa fa-fw fa-envelope-o"></i> Help
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- legal and copyright -->
+  <section class="legal">
+    <div class="container">
+      {% include base/brand.html %}
+      {% include base/markdown.html file='blurb.md' %}
+      <div>
+        <a href="{{ site.data.url.ext.source }}"><i class="fa fa-github"></i> Source</a> |
+        <a href="{{ site.data.url.ext.privacy }}">Privacy</a> |
+        <a href="{{ site.data.url.ext.terms }}">Terms</a>
+      </div>
+      <div>
+        {{ site.copyright }} {{ site.time | date: '%Y' }} {{ site.company }}
+      </div>
+    </div>
+  </section>
+
+  <!-- back-to-top -->
+  <a id="back-to-top" title="Back to Top" href="{{ site.baseurl }}{{ site.data.url.index }}">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</footer>

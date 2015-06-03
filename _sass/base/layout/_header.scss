@@ -1,0 +1,127 @@
+/**
+ * Header
+ *
+ * The header of the website contains branding info, navigational links, and
+ *  gives the user a "Home" to always return to on the site. The header will
+ *  be styled in a way to promote the Numenta/NuPIC branding. We will use a
+ *  fixed-position header, always at top of client window.
+ *
+ * Our header is instance of the Bootstrap NavBar component:
+ *  http://getbootstrap.com/components/#navbar
+ *
+ * Markup:
+ *  <header>This is a bare Header</header>
+ *
+ * Styleguide: 1.1
+ */
+header {
+  background-color: $color-blue-dark;
+  color: $color-white;
+
+  > nav {
+    @include box-shadow(0 0 5px 0 $color-dark);
+
+    @media (max-width: $screen-sm) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    /**
+     * Header Brand/Logo and Home nav
+     */
+    .navbar-brand {
+      background-image: url('#{$baseurl}/assets/img/base/logo/numenta-mark-lite.svg');
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 58px 53px;
+      font-size: $font-size-base;
+      padding-left: 7rem;
+      padding-top: 3.5rem;
+      position: absolute;
+
+      @media (max-width: $screen-xs) {
+        background-position: left 39px;
+        background-size: 40px 37px;
+        padding-left: 5rem;
+      }
+
+      &:hover {
+        color: $color-white !important;
+        text-decoration: none;
+      }
+
+      > strong {
+        display: block;
+        font-size: 200%;
+
+        @media (max-width: $screen-xs) {
+          font-size: 170%;
+        }
+      }
+
+      > span {
+        color: $color-lite;
+        font-size: 85%;
+
+        @media (min-width: $screen-md) and (max-width: $screen-lg) {
+          font-size: 80%;
+        }
+        @media (max-width: $screen-xs) {
+          font-size: 70%;
+          position: relative;
+          top: -5px;
+        }
+      }
+    } // .navbar-brand
+
+    /**
+     * Mobile Header navigation menu via "hamburger" icon
+     */
+    .navbar-toggle {
+      @include navbar-vertical-align(50px);
+      color: $color-white;
+      padding: 9px 13px;
+    }
+
+    /**
+     * Header navigation menu
+     */
+    .navbar-nav {
+      > li {
+        &.active {
+          font-weight: $font-weight-bold;
+        }
+
+        @media (min-width: $screen-lg) {
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+        }
+
+        > a {
+          font-size: 82.5%;
+          text-transform: uppercase;
+
+          > i {
+            padding-right: 0.33rem;
+          }
+        }
+      }
+
+      /**
+       * "More" on Navigation menu
+       */
+      .dropdown-menu {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+
+        a, a:link {
+          font-size: 85%;
+          font-weight: $font-weight-normal;
+          padding-bottom: 5px;
+          padding-top: 5px;
+          text-transform: uppercase;
+        }
+      } // .dropdown-menu
+    } // .navbar-nav
+  } // nav
+} // header

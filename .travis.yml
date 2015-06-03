@@ -5,8 +5,9 @@ branches:
     - gh-pages
 
 language: ruby
+
 rvm:
-    - 2.2.1
+  - 2.2.1
 
 env:
   global:
@@ -18,8 +19,11 @@ notifications:
     channels:
       - "irc.freenode.net#nupic-hackers"
 
-before_install:
+before_script:
   - gem install bundler
   - bundle install
+  - npm install
 
-script: bundle exec jekyll build
+script:
+  - npm run build
+  - npm run test

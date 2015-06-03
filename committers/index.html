@@ -1,72 +1,57 @@
 ---
 layout: default
+redirect_from:
+  - "/committers.html"
+scripts:
+  - "/node_modules/handlebars/dist/handlebars.min.js"
+  - "/assets/js/committers.js"
 title: NuPIC Committers
 ---
 
 <section>
-    <h2>{{ page.title }}</h2>
-    <div id="committers">
-        loading...
-    </div>
+  <h1>{{ page.title }}</h1>
+  <div id="committers">
+    loading...
+  </div>
 </section>
 
-<style>
-    #committers img {
-        width: 100px;
-        height: 100px;
-    }
-</style>
-
 {% raw %}
-<script id="committers-tmpl" type="text/x-handler-template">
-    <table>
+  <script id="committers-tmpl" type="text/x-handler-template">
     {{#each committers}}
-        <tr>
-            <td>
-                <a href="{{html_url}}" target="_blank">
-                    <img src="{{avatar_url}}"/>
-                </a>
-            </td>
-            <td>
-                {{#if name}}
-                <h2>{{name}}</h2>
-                {{else}}
-                <h2>{{login}}</h2>
-                {{/if}}
-                <p>{{bio}}</p>
-                <blockquote>
-                    <h3>Followers: {{followers}}</h3>
-                </blockquote>
-            </td>
-            <td>
-                <table>
-                    <tbody>
-                    {{#if location}}
-                    <tr>
-                        <th>Location:</th>
-                        <td>{{location}}</td>
-                    </tr>
-                    {{/if}}
-                    {{#if company}}
-                    <tr>
-                        <th>Company:</th>
-                        <td>{{company}}</td>
-                    </tr>
-                    {{/if}}
-                    {{#if email}}
-                    <tr>
-                        <th>Email:</th>
-                        <td><a href="mailto:{{email}}">{{email}}</a></td>
-                    </tr>
-                    {{/if}}
-                    </tbody>
-                </table>
-            </td>
-        </tr>
+      <div class="media">
+        <div class="media-left">
+          <a href="{{html_url}}" target="_blank">
+            <img class="media-object" src="{{avatar_url}}" alt="User Image" style="height:100px; width:100px;" />
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">
+            {{#if name}}
+              {{name}}
+            {{else}}
+              {{login}}
+            {{/if}}
+          </h4>
+          <p>{{bio}}</p>
+          <dl class="dl-horizontal small">
+            <dt>Followers</dt>
+              <dd>{{followers}}</dd>
+            {{#if location}}
+              <dt>Location</dt>
+                <dd>{{location}}</dd>
+            {{/if}}
+            {{#if company}}
+              <dt>Company</dt>
+                <dd>{{company}}</dd>
+            {{/if}}
+            {{#if email}}
+              <dt>Email</dt>
+                <dd><a href="mailto:{{email}}">{{email}}</a></dd>
+            {{/if}}
+          </dl>
+        </div> <!-- .media-body -->
+      </div> <!-- .media -->
+      <hr />
     {{/each}}
-    </table>
-</script>
+  </script>
 {% endraw %}
-
-<script src="{{ site.baseurl }}/javascripts/handlebars.js"></script>
-<script src="{{ site.baseurl }}/javascripts/committers.js"></script>

@@ -1,0 +1,20 @@
+{% comment %}
+  Social sharing icon links for individual post items.
+  @param {String} link - Social Sharing URL, usually: social site + post url.
+  @param {String} feed - feed of RSS feed to display ('Blog', 'News', etc.).
+{% endcomment %}
+
+<ul class="share list-inline list-unstyled">
+  {% for entity in site.data.share %}
+    <li>
+      <a href="{{ entity.link }}{{ site.baseurl }}{{ include.link }}" title="Share on {{ entity.name }}">
+        <i class="fa fa-fw {{ entity.icon }}"></i>
+      </a>
+    </li>
+  {% endfor %}
+  <li>
+    <a href="{{ site.baseurl }}/{{ include.feed | downcase }}/index.xml" title="{{ include.feed | capitalize }} RSS Feed">
+      <i class="fa fa-fw fa-rss"></i>
+    </a>
+  </li>
+</ul>

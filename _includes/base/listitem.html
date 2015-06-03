@@ -1,0 +1,21 @@
+{% comment %}
+  List Post Item: Blog, News, Events, etc.
+  @param {String} [post] - Post item to display, usually expected to be in the
+    context wrapped around this, but can be passed in manually.
+  @see _includes/base/lateitem.html, _layouts/item.html
+{% endcomment %}
+
+<article>
+  <h5>
+    <date>{{ post.date | date_to_string }}</date>
+  </h5>
+  <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+  <div class="meta">
+    <em>by</em> {{ post.author }}
+  </div>
+  <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+  {% include base/share.html link=post.url feed=post.category %}
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    Read Full Article <i class="fa fa-fw fa-angle-right"></i>
+  </a>
+</article>

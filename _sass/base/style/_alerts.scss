@@ -1,0 +1,19 @@
+/**
+ * Alerts
+ *
+ * Provide contextual feedback messages for typical user actions with the
+ *  handful of available and flexible alert messages.
+ *
+ * See also: http://getbootstrap.com/components/#alerts
+ *
+ * Markup:
+ *  <div class="alert alert-success" role="alert">Success</div>
+ *  <div class="alert alert-info" role="alert">Info</div>
+ *  <div class="alert alert-warning" role="alert">Warning</div>
+ *  <div class="alert alert-danger" role="alert">Danger</div>
+ *
+ * Styleguide: 8.0
+ */
+.alert {
+  font-size: 95%;
+}

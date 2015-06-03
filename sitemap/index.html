@@ -1,0 +1,153 @@
+---
+layout: default
+redirect_from: "/sitemap.html"
+title: NuPIC Sitemap (numenta.org)
+---
+
+<h1>{{page.title}}</h1>
+
+<div class="row">
+
+  <div class="col-sm-6 col-md-4">
+    <h4>Main</h4>
+    <ul>
+      {% for nav in site.data.nav %}
+        <li>
+          <i class="fa fa-fw {{ nav.icon }}"></i>
+          <a href="{{ site.baseurl }}{{ site.data.url.index }}{% if nav.link != '/' %}{{ nav.link }}{% endif %}" title="{{ nav.name }}">
+            {{ nav.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <h4>Other</h4>
+    <ul>
+      <li>
+        <i></i>
+        API References: <br/>
+        <a href="{{ site.baseurl }}{{ site.data.url.refapi }}">nupic</a> |
+        <a href="{{ site.baseurl }}{{ site.data.url.refcore }}">nupic.core</a> |
+        <a href="{{ site.baseurl }}{{ site.data.url.refjava }}">htm.java</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.code }}">Code of Conduct</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.committs }}">Committers</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.contribs }}">Contributors</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.data.url.ext.download }}">Download</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.lists }}">Lists</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.licenses }}">Licenses</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.faq }}">FAQ</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.report }}">Report Bug</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.search }}">Search</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}{{ site.data.url.sitemap }}">Sitemap</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.data.url.ext.source }}">Source Code</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.baseurl }}/styleguide/">Styleguide</a>
+      </li>
+      <li>
+        <i></i>
+        <a href="{{ site.data.url.ext.wiki }}">Wiki</a>
+      </li>
+    <ul>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <h4><a href="{{ site.baseurl }}{{ site.data.url.events }}">Events</a></h4>
+    <ul>
+      {% for post in site.categories.events %}
+        <li>
+          <i></i>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <date>{{ post.date | date: "%F" }}</date>:
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
+<div class="row">
+
+  <div class="col-sm-6 col-md-4">
+    <h4><a href="{{ site.baseurl }}{{ site.data.url.news }}">News</a></h4>
+    <ul>
+      {% for post in site.categories.news %}
+        <li>
+          <i></i>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <date>{{ post.date | date: "%F" }}</date>:
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <h4><a href="{{ site.baseurl }}{{ site.data.url.blog }}">Blog</a></h4>
+    <ul>
+      {% for post in site.categories.blog %}
+        <li>
+          <i></i>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <date>{{ post.date | date: "%F" }}</date>:
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <h4><a href="{{ site.baseurl }}{{ site.data.url.media }}">Media</a></h4>
+    <ul>
+      {% for post in site.categories.media %}
+        <li>
+          <i></i>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <date>{{ post.date | date: "%F" }}</date>:
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div><!-- .row -->

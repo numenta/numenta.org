@@ -1,0 +1,224 @@
+/**
+ * Typography
+ *
+ * Typography is the art and technique of arranging type to make written
+ *  language readable and beautiful. The arrangement of type involves selecting
+ *  typefaces, point size, line length, line-spacing (leading), letter-spacing
+ *  (tracking), the space within letters pairs (kerning), colors, and other
+ *  visual effects to enhance the type.
+ *
+ * This document will roughly follow the Bootstrap Typography section:
+ *  http://getbootstrap.com/css/#type
+ *
+ * Styleguide: 2.0
+ */
+
+
+/**
+ * Headings
+ *
+ * Heading elements implement six levels of document headings, `<h1>` is the
+ *  most important and `<h6>` is the least. A heading element briefly describes
+ *  the topic of the section it introduces.
+ *
+ * Markup:
+ *  <h1>h1. Page Title Heading <small>Secondary text</small></h1>
+ *  <h2>h2. Page Section Headings</h2>
+ *  <h3>h3. Page Subsection Headings</h3>
+ *  <h4>h4. Article Section Headings</h4>
+ *  <h5>h5. List Headings and Item Dates</h5>
+ *  <h6>h6. Footer Nav Headings</h6>
+ *
+ * Styleguide: 2.1
+ */
+h1 {
+  color: lighten($color-blue-dark, $color-shift);
+  font-size: 225%;
+  font-weight: $font-weight-bold;
+}
+h2 {
+  color: $color-gray;
+  font-size: 200%;
+  font-weight: $font-weight-bold;
+}
+h3 {
+  color: $color-gray;
+  font-size: 150%;
+  font-weight: $font-weight-bold;
+}
+h4 {
+  color: $color-gray-dark;
+  font-size: 115%;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+}
+h5 {
+  color: lighten($color-blue-dark, $color-shift);
+  font-size: 90%;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
+h6 {
+  color: $color-dark;
+  font-size: 80%;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
+
+/**
+ * Body copy
+ *
+ * We are using the **[OpenSans](https://google.com/fonts/specimen/Open+Sans)**
+ *  webfont with a sans-serif fallback. We use a larger **16pt** default font
+ *  size and an increased **1.66em** base line height, for a simple and modern
+ *  reading experience.
+ *
+ * Markup:
+ *  <p class="lead">
+ *    Leading body copy text.
+ *  </p>
+ *  <p>
+ *    Normal text in the Open Sans Light web font.
+ *    <strong>Strong Open Sans Semibold.</strong>
+ *    <em>Emphasized Italicized Open Sans Light.</em>
+ *    <mark>Marked</mark> <del>deleted</del> <ins>inserted</ins>
+ *    <u>underlined</u> <small>smaller</small> text is also available.
+ *    Lorem ipsum dolor sit amet, repellendus vitae tellus, id varius, tellus
+ *    varius, placerat morbi mus at scelerisque, imperdiet sodales ut.
+ *    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+ *    luctus pulvinar, hendrerit id, lorem.
+ *  </p>
+ *
+ * Styleguide: 2.2
+ */
+body {
+  font-weight: $font-weight-normal;
+
+  b, strong {
+    font-weight: $font-weight-bold;
+  }
+}
+
+/**
+ * Links
+ *
+ * Hyperlinks are references to data that the reader can directly follow either
+ *  by clicking or by hovering. A hyperlink points to a whole document or to a
+ *  specific element within a document. We maintain link colors which are near
+ *  the browser defaults to ensure a global user experience.
+ *
+ * This custom section does not exactly correspond with the Bootstrap guide.
+ *
+ * :hover   - Change while mouse is over top
+ * :active  - Change during click
+ *
+ * Markup:
+ *  <a href="#" class="{{modifier_class}}">Link to Somewhere</a>
+ *
+ * Styleguide: 2.2.1
+ */
+a, a:link {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:visited {
+    color: $color-blue-orig;
+  }
+
+  &:hover {
+    color: $color-blue;
+    text-decoration: underline;
+  }
+
+  &:active {
+    border-bottom: 1px $color-blue dotted;
+    color: $color-blue;
+    text-decoration: underline;
+  }
+}
+
+/**
+ * Lists
+ *
+ * Itemized Lists that exist in the page content sections, with Headings
+ *  to match. Ordered Lists `<ol>` are basic with a default numerical prefix.
+ *  Unordered Lists `<ul>` are not ordered in a specific manner.
+ *
+ * For unordered lists, we use FontAwesome list style icons. This is done by
+ *  extending SASS classes here (not inline in markup as usual). List icon
+ *  details: http://fortawesome.github.io/Font-Awesome/examples/#list.
+ *
+ * Markup:
+ *  <h5>Unordered List</h5>
+ *  <ul>
+ *    <li><i></i> Jump</li>
+ *    <li><i></i> Run</li>
+ *    <li><i></i> Fly</li>
+ *    <li><i class="fa-question-circle"></i> Custom</li>
+ *  </ul>
+ *  <br/>
+ *  <h5>Ordered List</h5>
+ *  <ol>
+ *    <li>One</li>
+ *    <li>Two</li>
+ *    <li>Three</li>
+ *    <li>Four</li>
+ *  </ol>
+ *
+ * Styleguide: 2.3
+ */
+main section {
+  ul {
+    @extend .fa-ul;
+
+    &.list-inline, &.list-unstyled {
+      > li > i {
+       position: static;
+      }
+    }
+
+    > li > i {
+      @extend .fa;
+      @extend .fa-li;
+      @extend .fa-angle-right;
+
+      color: lighten($color-gray, $color-shift);
+      top: 0.5rem;
+    }
+  }
+}
+
+/**
+ * Definitions
+ *
+ * A list of terms with their associated descriptions and definitions.
+ *
+ * Markup:
+ *  <h5>Definition List</h5>
+ *  <dl>
+ *    <dt>Name</dt>
+ *      <dd>King Kong</dd>
+ *    <dt>Year</dt>
+ *      <dd>Twenty Fifteen</dd>
+ *    <dt>Location</dt>
+ *      <dd>Redwood City, CA, United States</dd>
+ *  </dl>
+ *  <br/>
+ *  <h5>Horizontal Definition List</h5>
+ *  <dl class="dl-horizontal">
+ *    <dt>Name</dt>
+ *      <dd>King Kong</dd>
+ *    <dt>Year</dt>
+ *      <dd>Twenty Fifteen</dd>
+ *    <dt>Location</dt>
+ *      <dd>Redwood City, CA, United States</dd>
+ *  </dl>
+ *
+ * Styleguide: 2.4
+ */
+dl {
+  > dt {
+  }
+  > dd {
+  }
+}

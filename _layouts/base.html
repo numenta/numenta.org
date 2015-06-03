@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- metadata -->
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <!-- <link rel="canonical" href="TBD" /> -->
+    {% assign ver = site.github.build_revision %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="{{ site.title }} {{ site.tagline }}" />
+    <meta name="keywords" content="nupic numenta open platform community machine intelligence htm hierarchical temporal memory {% for tag in site.tags %}{{ tag }} {% endfor %}" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="google-site-verification" content="OfJ5zPSx53VfF9A0uweP4yhNQsUuXCZ7ZAkdLVIEks0" />
+    <!-- feeds -->
+    <link rel="alternate" type="application/rss+xml" title="NuPIC Blog Feed" href="{{ site.baseurl }}{{ site.data.url.rss.blog }}" />
+    <link rel="alternate" type="application/rss+xml" title="NuPIC News Feed" href="{{ site.baseurl }}{{ site.data.url.rss.news }}" />
+    <link rel="alternate" type="application/rss+xml" title="NuPIC Events Feed" href="{{ site.baseurl }}{{ site.data.url.rss.events }}" />
+    <link rel="alternate" type="application/rss+xml" title="NuPIC Media Feed" href="{{ site.baseurl }}{{ site.data.url.rss.media }}" />
+    <!-- assets -->
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}/assets/img/base/icon/tileicon.png?v={{ ver }}" />
+    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/img/base/icon/apple-touch-icon-precomposed.png?v={{ ver }}" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/base/icon/favicon.png?v={{ ver }}" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/base/icon/favicon.ico?v={{ ver }}" />
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/base.css?v={{ ver }}" />
+    {% for sheet in page.styles %}
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}{{ sheet }}?v={{ ver }}" />
+    {% endfor %}
+  </head>
+  <body class="numenta" data-spy="scroll" data-target=".scrollspy-nav">
+    <!-- content | {{ site.baseurl }} {{ site.copyright }} {{ site.time | date_to_xmlschema }} {{ site.company }} v={{ ver }} -->
+    {% include base/header.html %}
+    <main>{{ content }}</main>
+    {% include base/footer.html %}
+    <!-- scripts -->
+    <script>
+      (function () {
+        'use strict';
+        window.Numenta = { // init
+          url: {
+            download: '{{ site.data.url.ext.download }}',
+            package:  '{{ site.data.url.ext.package }}'
+          }
+        };
+      })();
+    </script>
+    <script src="{{ site.baseurl }}/node_modules/jquery/dist/jquery.min.js?v={{ ver }}"></script>
+    <script src="{{ site.baseurl }}/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js?v={{ ver }}"></script>
+    <script src="{{ site.baseurl }}/node_modules/platform/platform.js?v={{ ver }}"></script>
+    <script src="{{ site.baseurl }}/assets/js/lib/jquery.universal-analytics.min.js?v={{ ver }}"></script>
+    <script src="{{ site.baseurl }}/assets/js/base.js?v={{ ver }}"></script>
+    {% for script in page.scripts %}
+      <script src="{{ site.baseurl }}{{ script }}?v={{ ver }}"></script>
+    {% endfor %}
+    {% include base/analytics.html %}
+  </body>
+</html>

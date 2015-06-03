@@ -1,0 +1,26 @@
+/**
+ * Media
+ *
+ * Media object for abstract object styles for building various types of
+ *  components (like blog comments, Tweets, etc) that feature a left- or
+ *  right-aligned image alongside textual content.
+ *
+ * See also: http://getbootstrap.com/components/#media
+ *
+ * Markup:
+ *  <div class="media">
+ *    <div class="media-left">
+ *      <a href="#">
+ *        <img class="media-object" alt="Logo" src="http://numenta.com/assets/img/logo/numenta.png" width="150">
+ *      </a>
+ *    </div>
+ *    <div class="media-body">
+ *      <h4 class="media-heading">Media heading</h4>
+ *      <p>Media description goes here and can go on for a while if you want.</p>
+ *    </div>
+ *  </div>
+ *
+ * Styleguide: 9.0
+ */
+.media {
+}

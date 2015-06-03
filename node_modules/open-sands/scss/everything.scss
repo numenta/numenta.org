@@ -1,0 +1,12 @@
+@import 'open-sans';
+
+@include open-sans-font-face-light();
+@include open-sans-font-face-regular();
+@include open-sans-font-face-semibold();
+@include open-sans-font-face-bold();
+@include open-sans-font-face-extrabold();
+@include open-sans-font-face-light-italic();
+@include open-sans-font-face-italic();
+@include open-sans-font-face-semibold-italic();
+@include open-sans-font-face-bold-italic();
+@include open-sans-font-face-extrabold-italic();

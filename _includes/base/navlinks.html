@@ -1,0 +1,11 @@
+{% comment %}
+  Main site navigation links, on header and footer.
+{% endcomment %}
+
+{% for nav in site.data.nav %}
+  <li>
+    <a href="{% unless page.url == '/index.html' %}{{ site.baseurl }}{{ site.data.url.index }}{% endunless %}{{ nav.link }}" title="{{ nav.name }}">
+      <i class="fa fa-fw {{ nav.icon }}"></i> {{ nav.name }}
+    </a>
+  </li>
+{% endfor %}

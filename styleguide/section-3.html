@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>NuPIC (http://numenta.org) Living Styleguide (kss-node)</title>
+    <meta name="description" content="" />
+    <meta name="generator" content="kss-node" />
+    <link rel="stylesheet" href="public/kss.css" />
+    <link rel="stylesheet" href="/assets/css/base.css">
+
+    <!--[if lt IE 9]>
+    <script src="public/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body id="kss-node">
+
+    <!-- numenta custom start -->
+    <main>
+    <!-- numenta custom end -->
+
+    <div class="kss-wrapper">
+      <div class="kss-sidebar">
+        <div class="kss-sidebar-inner">
+          <header class="kss-header">
+            <h1 class="kss-doc-title"><a href="./">Numenta.org Styleguide</a></h1>
+          </header>
+          <nav class="kss-nav">
+            <ul class="kss-menu" data-kss-ref="3">
+              <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Layout</span></a></li>
+              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Typography</span></a></li>
+              <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Code</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Tables</span></a></li>
+              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Buttons</span></a></li>
+              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Icons</span></a></li>
+              <li class="kss-menu-item"><a href="section-7.html"><span class="kss-ref">7</span><span class="kss-name">Popovers</span></a></li>
+              <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Alerts</span></a></li>
+              <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Media</span></a></li>
+              <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Wells</span></a></li>
+            </ul>
+            <ul class="kss-menu-child">
+              <li class="kss-menu-item"><a href="#section-3.1"><span class="kss-ref">3.1</span><span class="kss-name">Block</span></a></li>
+              <li class="kss-menu-item"><a href="#section-3.2"><span class="kss-ref">3.2</span><span class="kss-name">Inline</span></a></li>
+              <li class="kss-menu-item"><a href="#section-3.3"><span class="kss-ref">3.3</span><span class="kss-name">User Input</span></a></li>
+              <li class="kss-menu-item"><a href="#section-3.4"><span class="kss-ref">3.4</span><span class="kss-name">Variables</span></a></li>
+              <li class="kss-menu-item"><a href="#section-3.5"><span class="kss-ref">3.5</span><span class="kss-name">Output</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="kss-content">
+        <article class="kss-article">
+          <section id="section-3" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">3</span> Code</h1>
+            <div class="kss-description">
+              <p>Inline code snippets, keyboard user input display, blocks of pre-formatted
+ text, highlighted code via Jekyll+Pygments, sample code output, etc.</p>
+<p>This section will roughly follow the Bootstrap Code CSS outline:
+ <a href="http://getbootstrap.com/css/#code">http://getbootstrap.com/css/#code</a></p>
+
+            </div>
+          </section>
+          <section id="section-3.1" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">3.1</span> Block</h1>
+            <div class="kss-description">
+              <p>A block of syntax-highlighted code wrapped with <code>&lt;pre&gt;</code> tags. If inside
+ a Liquid template, you can use the Pygments syntax highlighting style
+ <code>{% highlight lang %}</code>. Learn more:
+ <a href="http://jekyllrb.com/docs/templates/#code-snippet-highlighting">http://jekyllrb.com/docs/templates/#code-snippet-highlighting</a></p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <pre>
+   var name = 'Vito';
+   if(name.length > 10) return;
+ </pre>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;pre&gt;
+   var name = &#x27;Vito&#x27;;
+   if(name.length &gt; 10) return;
+ &lt;/pre&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-3.2" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">3.2</span> Inline</h1>
+            <div class="kss-description">
+              <p>Wrap inline snippets of code with <code>&lt;code&gt;</code>.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       There was a bug in the <code>getDataHandler()</code> class method.
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> There was a bug in the &lt;code&gt;getDataHandler()&lt;/code&gt; class method.</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-3.3" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">3.3</span> User Input</h1>
+            <div class="kss-description">
+              <p>Use the <code>&lt;kbd&gt;</code> tag to indicate input that is typically entered via keyboard.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       To exit press the <kbd>ESC</kbd> or <kbd>q</kbd> keys.
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> To exit press the &lt;kbd&gt;ESC&lt;/kbd&gt; or &lt;kbd&gt;q&lt;/kbd&gt; keys.</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-3.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">3.4</span> Variables</h1>
+            <div class="kss-description">
+              <p>For indicating variables use the <code>&lt;var&gt;</code> tag.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;var&gt;y&lt;/var&gt; = &lt;var&gt;m&lt;/var&gt;&lt;var&gt;x&lt;/var&gt; + &lt;var&gt;b&lt;/var&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-3.5" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">3.5</span> Output</h1>
+            <div class="kss-description">
+              <p>For indicating blocks sample output from a program use the <code>&lt;samp&gt;</code> tag.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <samp>An error occured, please try running me again.</samp>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;samp&gt;An error occured, please try running me again.&lt;/samp&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+        </article>
+        <footer class="kss-footer">
+          <div>Created using <a href="https://github.com/hughsk/kss-node">kss-node</a> and <a href="https://github.com/htanjo/kss-node-template">kss-node-template</a>.</div>
+        </footer>
+      </div>
+    </div>
+    <script src="public/kss.js"></script>
+    <script src="public/jquery-1.9.1.min.js"></script>
+    <script src="public/bootstrap.min.js"></script>
+    <!--[if gt IE 8]><!-->
+    <script src="public/rainbow.min.js"></script>
+    <!--<![endif]-->
+    <script src="public/main.js"></script>
+
+    <!-- numenta custom start -->
+    </main>
+    <!-- numenta custom end -->
+
+  </body>
+</html>

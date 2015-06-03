@@ -1,0 +1,20 @@
+-
+  icon: "fa-sign-in"
+  link: "#start"
+  name: "Start"
+-
+  icon: "fa-file-text-o"
+  link: "#docs"
+  name: "Docs"
+-
+  icon: "fa-lightbulb-o"
+  link: "#theory"
+  name: "Theory"
+-
+  icon: "fa-users"
+  link: "#community"
+  name: "Community"
+-
+  icon: "fa-flag"
+  link: "#latest"
+  name: "Latest"

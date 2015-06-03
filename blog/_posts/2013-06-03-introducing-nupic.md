@@ -1,8 +1,9 @@
 ---
-layout: blogpost
-title: Introducing NuPIC
+author: Jeff Hawkins
 category: blog
+layout: item
 redirect_from: "/news/2013/06/03/introducing-nupic.html"
+title: Introducing NuPIC
 ---
 
 Welcome to the NuPIC open source project.  This is a good place to be if you are interested in machine intelligence and brain modeling.

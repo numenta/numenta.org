@@ -38,7 +38,7 @@ Temporal pooling is an essential component of HTM theory.  In this short talk I 
 
 ### Cortical Learning Algorithm as Implemented in NuPIC (Chetan Surpur)
 
-The Cortical Learning Algorithm (CLA) is implemented in NuPIC as the Spatial Pooler (SP) and the Temporal Pooler (TP). This talk will describe how the algorithms work, and touch on the differences between their implementations in NuPIC and the [HTM whitepaper]({{ site.baseurl }}htm-white-paper.html). I'll also go over plans to improve and extend the SP and TP.
+The Cortical Learning Algorithm (CLA) is implemented in NuPIC as the Spatial Pooler (SP) and the Temporal Pooler (TP). This talk will describe how the algorithms work, and touch on the differences between their implementations in NuPIC and the [HTM whitepaper]({{ site.data.url.ext.htmpaper }}). I'll also go over plans to improve and extend the SP and TP.
 
 ### The State of NuPIC (Matt Taylor)
 

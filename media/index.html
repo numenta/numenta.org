@@ -1,0 +1,21 @@
+---
+layout: default
+styles:
+  - "/assets/css/list.css"
+  - "/assets/css/item.css"
+title: Media
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul class="list-unstyled articles">
+  {% for post in site.categories.media %}
+    <li>
+      {% include base/listitem.html %}
+    </li>
+  {% endfor %}
+</ul>
+
+<a href="{{ site.baseurl }}{{ site.data.url.index }}">
+  <i class="fa fa-fw fa-angle-left"></i> Back to Home
+</a>

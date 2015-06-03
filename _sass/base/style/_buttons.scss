@@ -1,0 +1,28 @@
+/**
+ * Buttons
+ *
+ * The HTML `<button>` tag, used for creating button controls. Although this
+ *  tag is often used in conjunction with the `<form>` element, it can also be
+ *  used as a standalone control. We add slight shadows/outlines to our Buttons
+ *  to visually separate them for the user as clickable entities.
+ *
+ * Our default button styles inherit from the Bootstrap `.btn` and
+ *  `.btn-default` classes, and are ready for other Bootstrap Button classes in
+ *  the markup: http://getbootstrap.com/css/#buttons.
+ *
+ * Markup:
+ *  <button type="button">Default</button>
+ *  <button type="button" class="btn-primary">Primary</button>
+ *  <button type="button" class="btn-success">Success</button>
+ *  <button type="button" class="btn-info">Info</button>
+ *  <button type="button" class="btn-warning">Warning</button>
+ *  <button type="button" class="btn-danger">Danger</button>
+ *  <button type="button" class="btn-link">Link</button>
+ *
+ * Styleguide: 5.0
+ */
+button {
+  @extend .btn;
+  @extend .btn-default;
+  @include box-shadow(0 2px 3px 0 $color-gray-dark);
+}

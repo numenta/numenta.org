@@ -1,0 +1,23 @@
+---
+# Post Item: Blog, News, Events, etc.
+# @see _includes/base/lateitem.html, _includes/base/listitem.html
+layout: default
+styles:
+  - "/assets/css/item.css"
+---
+<article>
+  <h5>
+    <date>{{ page.date | date_to_string }}</date> |
+    {{ page.category }}
+  </h5>
+  <h1>{{ page.title }}</h1>
+  <div class="meta">
+    <em>by</em> {{ page.author }}
+  </div>
+  <p>{{ content }}</p>
+  {% include base/share.html link=page.url feed=page.category %}
+  <a href="{{site.baseurl}}{{ site.data.url[page.category] }}">
+    <i class="fa fa-fw fa-angle-left"></i>
+    Back to {{ page.category | capitalize }}
+  </a>
+</article>

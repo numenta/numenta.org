@@ -1,0 +1,67 @@
+<span id="latest" class="anchor"></span>
+<div class="arrow-down"></div>
+<section class="latest">
+  <div class="container">
+
+    <h2>Latest</h2>
+
+    <div class="row">
+      <div class="col-sm-8">
+        {% include base/markdown.html file='latest.intro.md' %}
+      </div>
+      <div class="col-sm-4 text-center icon">
+        <i class="fa fa-4x fa-flag"></i>
+      </div>
+    </div>
+
+    <div class="areas">
+
+      <div class="row">
+        <div class="col-sm-6">
+
+          <!-- blog -->
+          <div class="area">
+            {% for post in site.categories.blog limit:1 %}
+              {% include base/lateitem.html title='Blog' link=site.data.url.blog %}
+            {% endfor %}
+          </div>
+
+        </div>
+        <div class="col-sm-6">
+
+          <!-- news -->
+          <div class="area">
+            {% for post in site.categories.news limit:1 %}
+              {% include base/lateitem.html title='News' link=site.data.url.news %}
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+
+          <!-- events -->
+          <div class="area">
+            {% for post in site.categories.events limit:1 %}
+              {% include base/lateitem.html title='Events' link=site.data.url.events %}
+            {% endfor %}
+          </div>
+
+        </div>
+        <div class="col-sm-6">
+
+          <!-- media -->
+          <div class="area">
+            {% for post in site.categories.media limit:1 %}
+              {% include base/lateitem.html title='Media' link=site.data.url.media %}
+            {% endfor %}
+          </div>
+
+        </div>
+      </div><!-- .row -->
+
+    </div><!-- .areas -->
+
+  </div>
+</section>

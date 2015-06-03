@@ -1,0 +1,35 @@
+---
+---
+
+/**
+ * Base global CSS/SASS visual stylesheets for Numenta.org
+ *
+ * This document uses the kss-node Living CSS/SASS Styleguide specification:
+ *  https://github.com/kss-node/kss/blob/spec/SPEC.md
+ */
+
+$baseurl: "{{ site.baseurl }}";
+
+@import 'base/variables';
+
+@import 'base/bootstrap';
+@import 'base/webfont/fontawesome';
+@import 'base/webfont/opensans';
+
+
+/**
+ * Living Styleguide
+ *
+ * Generally follows the order of Bootstrap CSS: http://getbootstrap.com/css/.
+ */
+
+@import 'base/layout';
+@import 'base/style/typography';
+@import 'base/style/code';
+@import 'base/style/tables';
+@import 'base/style/buttons';
+@import 'base/style/icons';
+@import 'base/style/popover';
+@import 'base/style/alerts';
+@import 'base/style/media';
+@import 'base/style/wells';

@@ -1,0 +1,29 @@
+<section class="hero">
+  <div class="container">
+
+    <h1>Welcome</h1>
+
+    <div class="row">
+      <div class="col-sm-8">
+        {% include base/markdown.html file='welcome.md' %}
+      </div>
+      <div class="col-sm-4 text-center">
+        <img src="{{ site.baseurl }}/assets/img/base/logo/numenta-mark-dark.svg" alt="Numenta Logo" />
+      </div>
+    </div>
+
+    <h2>Features</h2>
+    <ul class="features list-inline list-unstyled">
+      {% for feature in site.data.features %}
+        <li>
+          <i class="fa fa-4x {{ feature.icon }}"></i>
+          <a href="{{ feature.link }}" data-toggle="popover" title="{{ feature.name }}" data-content="{{ feature.desc }}" role="button">
+            {{ feature.name }}
+            <i class="fa fa-fw fa-caret-down"></i>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</section>

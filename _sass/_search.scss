@@ -1,0 +1,29 @@
+/**
+ * Search
+ */
+
+#gcs-nupic table {
+  border-collapse: inherit;
+  margin: inherit;
+
+  td {
+    border: none;
+    padding: 2px 0 0 2px;
+
+    .gsc-input-box {
+      height: 40px;
+      position: relative;
+      top: -2px;
+    }
+
+    input.gsc-search-button {
+      background: $color-blue;
+      border: 0;
+      color: $color-white;
+      height: 39px;
+      margin: 0;
+      padding: 13px;
+      width: 39px;
+    }
+  }
+}

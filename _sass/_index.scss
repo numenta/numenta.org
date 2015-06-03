@@ -1,0 +1,177 @@
+/**
+ * Homepage
+ */
+
+
+/**
+ * Section: Hero
+ */
+.hero {
+  padding-bottom: 4rem;
+
+  // logo
+  img {
+    height: 100px;
+    width:  110px;
+  }
+
+  h2 {
+    margin-top: 0.5rem;
+  }
+
+  ul {
+    line-height: 1.5;
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+
+    li {
+      margin-bottom: 4rem;
+      text-align: center;
+      vertical-align: top;
+      width: 15%;
+
+      @media (max-width: $screen-md) {
+        width: 32%;
+      }
+      @media (max-width: $screen-sm) {
+        width: 49%;
+      }
+
+      i {
+        color: lighten($color-blue-dark, $color-shift);
+        margin-bottom: 1.5rem;
+      }
+
+      a {
+        // color: $color-gray-dark;
+        display: block;
+        font-size: 95%;
+      }
+    }
+  }
+}
+
+/**
+ * Section: Start
+ */
+.start {
+  /**
+   * Start > Download subsection
+   */
+  .download {
+    // main download nupic button
+    button {
+      margin-bottom: 1rem;
+      padding: 1.25rem 4.75rem;
+
+      strong {
+        font-size: 150%;
+      }
+
+      div {
+        color: $color-gray-lite;
+        margin-top: -0.5rem;
+
+        span {
+          color: $color-white;
+          font-size: 90%;
+          padding: 0 0.5rem;
+        }
+      }
+    } // button
+
+    .notes {
+      font-size: 90%;
+
+      > div {
+        margin-bottom: 1rem;
+      }
+
+      .github {
+        left: 1.2rem;
+        margin-top: 1.5rem;
+        position: relative;
+      }
+
+      .more {
+        width: 82%;
+        margin-left: 9%;
+      }
+    } // .notes
+  }
+
+  /**
+   * Start > Quickstart subsection
+   */
+  .quickstart {
+    .notes {
+      font-size: 90%;
+    }
+  }
+}
+
+/**
+ * Section: Docs
+ */
+.docs {
+}
+
+/**
+ * Section: Theory
+ */
+.theory {
+}
+
+/**
+ * Section: Community
+ */
+.community {
+}
+
+/**
+ * Section: Latest
+ */
+.latest {
+  @include gradient-vertical($color-white, $color-gray-lite, 0%, 100%);
+  padding-bottom: 4rem;
+
+  .areas {
+    @media (max-width: $screen-md) {
+      margin-top: 2rem;
+    }
+    @media (min-width: $screen-md) {
+      margin-top: 4rem;
+    }
+
+    .area {
+      background-color: $color-white;
+      margin: 0 1rem 4rem;
+      padding: 2.5rem 3rem 3rem;
+
+      > .row > div {
+        margin-bottom: 0.666rem;
+      }
+
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+
+      .share {
+        li {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      > a {
+        display: block;
+      }
+
+      .title {
+        font-size: 112%;
+      }
+    }
+  }
+}

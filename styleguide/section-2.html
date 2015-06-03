@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>NuPIC (http://numenta.org) Living Styleguide (kss-node)</title>
+    <meta name="description" content="" />
+    <meta name="generator" content="kss-node" />
+    <link rel="stylesheet" href="public/kss.css" />
+    <link rel="stylesheet" href="/assets/css/base.css">
+
+    <!--[if lt IE 9]>
+    <script src="public/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body id="kss-node">
+
+    <!-- numenta custom start -->
+    <main>
+    <!-- numenta custom end -->
+
+    <div class="kss-wrapper">
+      <div class="kss-sidebar">
+        <div class="kss-sidebar-inner">
+          <header class="kss-header">
+            <h1 class="kss-doc-title"><a href="./">Numenta.org Styleguide</a></h1>
+          </header>
+          <nav class="kss-nav">
+            <ul class="kss-menu" data-kss-ref="2">
+              <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Layout</span></a></li>
+              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Typography</span></a></li>
+              <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Code</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Tables</span></a></li>
+              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Buttons</span></a></li>
+              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Icons</span></a></li>
+              <li class="kss-menu-item"><a href="section-7.html"><span class="kss-ref">7</span><span class="kss-name">Popovers</span></a></li>
+              <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Alerts</span></a></li>
+              <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Media</span></a></li>
+              <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Wells</span></a></li>
+            </ul>
+            <ul class="kss-menu-child">
+              <li class="kss-menu-item"><a href="#section-2.1"><span class="kss-ref">2.1</span><span class="kss-name">Headings</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.2"><span class="kss-ref">2.2</span><span class="kss-name">Body copy</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.2.1"><span class="kss-ref">2.2.1</span><span class="kss-name">Links</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.3"><span class="kss-ref">2.3</span><span class="kss-name">Lists</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.4"><span class="kss-ref">2.4</span><span class="kss-name">Definitions</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="kss-content">
+        <article class="kss-article">
+          <section id="section-2" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">2</span> Typography</h1>
+            <div class="kss-description">
+              <p>Typography is the art and technique of arranging type to make written
+ language readable and beautiful. The arrangement of type involves selecting
+ typefaces, point size, line length, line-spacing (leading), letter-spacing
+ (tracking), the space within letters pairs (kerning), colors, and other
+ visual effects to enhance the type.</p>
+<p>This document will roughly follow the Bootstrap Typography section:
+ <a href="http://getbootstrap.com/css/#type">http://getbootstrap.com/css/#type</a></p>
+
+            </div>
+          </section>
+          <section id="section-2.1" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.1</span> Headings</h1>
+            <div class="kss-description">
+              <p>Heading elements implement six levels of document headings, <code>&lt;h1&gt;</code> is the
+ most important and <code>&lt;h6&gt;</code> is the least. A heading element briefly describes
+ the topic of the section it introduces.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <h1>h1. Page Title Heading <small>Secondary text</small></h1>
+ <h2>h2. Page Section Headings</h2>
+ <h3>h3. Page Subsection Headings</h3>
+ <h4>h4. Article Section Headings</h4>
+ <h5>h5. List Headings and Item Dates</h5>
+ <h6>h6. Footer Nav Headings</h6>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;h1&gt;h1. Page Title Heading &lt;small&gt;Secondary text&lt;/small&gt;&lt;/h1&gt;
+ &lt;h2&gt;h2. Page Section Headings&lt;/h2&gt;
+ &lt;h3&gt;h3. Page Subsection Headings&lt;/h3&gt;
+ &lt;h4&gt;h4. Article Section Headings&lt;/h4&gt;
+ &lt;h5&gt;h5. List Headings and Item Dates&lt;/h5&gt;
+ &lt;h6&gt;h6. Footer Nav Headings&lt;/h6&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-2.2" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.2</span> Body copy</h1>
+            <div class="kss-description">
+              <p>We are using the <strong><a href="https://google.com/fonts/specimen/Open+Sans">OpenSans</a></strong>
+ webfont with a sans-serif fallback. We use a larger <strong>16pt</strong> default font
+ size and an increased <strong>1.66em</strong> base line height, for a simple and modern
+ reading experience.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <p class="lead">
+   Leading body copy text.
+ </p>
+ <p>
+   Normal text in the Open Sans Light web font.
+   <strong>Strong Open Sans Semibold.</strong>
+   <em>Emphasized Italicized Open Sans Light.</em>
+   <mark>Marked</mark> <del>deleted</del> <ins>inserted</ins>
+   <u>underlined</u> <small>smaller</small> text is also available.
+   Lorem ipsum dolor sit amet, repellendus vitae tellus, id varius, tellus
+   varius, placerat morbi mus at scelerisque, imperdiet sodales ut.
+   Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+   luctus pulvinar, hendrerit id, lorem.
+ </p>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;p class=&quot;lead&quot;&gt;
+   Leading body copy text.
+ &lt;/p&gt;
+ &lt;p&gt;
+   Normal text in the Open Sans Light web font.
+   &lt;strong&gt;Strong Open Sans Semibold.&lt;/strong&gt;
+   &lt;em&gt;Emphasized Italicized Open Sans Light.&lt;/em&gt;
+   &lt;mark&gt;Marked&lt;/mark&gt; &lt;del&gt;deleted&lt;/del&gt; &lt;ins&gt;inserted&lt;/ins&gt;
+   &lt;u&gt;underlined&lt;/u&gt; &lt;small&gt;smaller&lt;/small&gt; text is also available.
+   Lorem ipsum dolor sit amet, repellendus vitae tellus, id varius, tellus
+   varius, placerat morbi mus at scelerisque, imperdiet sodales ut.
+   Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+   luctus pulvinar, hendrerit id, lorem.
+ &lt;/p&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-2.2.1" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">2.2.1</span> Links</h1>
+            <div class="kss-description">
+              <p>Hyperlinks are references to data that the reader can directly follow either
+ by clicking or by hovering. A hyperlink points to a whole document or to a
+ specific element within a document. We maintain link colors which are near
+ the browser defaults to ensure a global user experience.</p>
+<p>This custom section does not exactly correspond with the Bootstrap guide.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <a href="#" class="[modifier class]">Link to Somewhere</a>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">:hover</div>
+                  <div class="kss-modifier-description">
+                    Change while mouse is over top
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                   <a href="#" class="pseudo-class-hover">Link to Somewhere</a>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">:active</div>
+                  <div class="kss-modifier-description">
+                    Change during click
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                   <a href="#" class="pseudo-class-active">Link to Somewhere</a>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;a href=&quot;#&quot; class=&quot;[modifier class]&quot;&gt;Link to Somewhere&lt;/a&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-2.3" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.3</span> Lists</h1>
+            <div class="kss-description">
+              <p>Itemized Lists that exist in the page content sections, with Headings
+ to match. Ordered Lists <code>&lt;ol&gt;</code> are basic with a default numerical prefix.
+ Unordered Lists <code>&lt;ul&gt;</code> are not ordered in a specific manner.</p>
+<p>For unordered lists, we use FontAwesome list style icons. This is done by
+ extending SASS classes here (not inline in markup as usual). List icon
+ details: <a href="http://fortawesome.github.io/Font-Awesome/examples/#list">http://fortawesome.github.io/Font-Awesome/examples/#list</a>.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <h5>Unordered List</h5>
+ <ul>
+   <li><i></i> Jump</li>
+   <li><i></i> Run</li>
+   <li><i></i> Fly</li>
+   <li><i class="fa-question-circle"></i> Custom</li>
+ </ul>
+ <br/>
+ <h5>Ordered List</h5>
+ <ol>
+   <li>One</li>
+   <li>Two</li>
+   <li>Three</li>
+   <li>Four</li>
+ </ol>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;h5&gt;Unordered List&lt;/h5&gt;
+ &lt;ul&gt;
+   &lt;li&gt;&lt;i&gt;&lt;/i&gt; Jump&lt;/li&gt;
+   &lt;li&gt;&lt;i&gt;&lt;/i&gt; Run&lt;/li&gt;
+   &lt;li&gt;&lt;i&gt;&lt;/i&gt; Fly&lt;/li&gt;
+   &lt;li&gt;&lt;i class=&quot;fa-question-circle&quot;&gt;&lt;/i&gt; Custom&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;br/&gt;
+ &lt;h5&gt;Ordered List&lt;/h5&gt;
+ &lt;ol&gt;
+   &lt;li&gt;One&lt;/li&gt;
+   &lt;li&gt;Two&lt;/li&gt;
+   &lt;li&gt;Three&lt;/li&gt;
+   &lt;li&gt;Four&lt;/li&gt;
+ &lt;/ol&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-2.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.4</span> Definitions</h1>
+            <div class="kss-description">
+              <p>A list of terms with their associated descriptions and definitions.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <h5>Definition List</h5>
+ <dl>
+   <dt>Name</dt>
+     <dd>King Kong</dd>
+   <dt>Year</dt>
+     <dd>Twenty Fifteen</dd>
+   <dt>Location</dt>
+     <dd>Redwood City, CA, United States</dd>
+ </dl>
+ <br/>
+ <h5>Horizontal Definition List</h5>
+ <dl class="dl-horizontal">
+   <dt>Name</dt>
+     <dd>King Kong</dd>
+   <dt>Year</dt>
+     <dd>Twenty Fifteen</dd>
+   <dt>Location</dt>
+     <dd>Redwood City, CA, United States</dd>
+ </dl>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;h5&gt;Definition List&lt;/h5&gt;
+ &lt;dl&gt;
+   &lt;dt&gt;Name&lt;/dt&gt;
+     &lt;dd&gt;King Kong&lt;/dd&gt;
+   &lt;dt&gt;Year&lt;/dt&gt;
+     &lt;dd&gt;Twenty Fifteen&lt;/dd&gt;
+   &lt;dt&gt;Location&lt;/dt&gt;
+     &lt;dd&gt;Redwood City, CA, United States&lt;/dd&gt;
+ &lt;/dl&gt;
+ &lt;br/&gt;
+ &lt;h5&gt;Horizontal Definition List&lt;/h5&gt;
+ &lt;dl class=&quot;dl-horizontal&quot;&gt;
+   &lt;dt&gt;Name&lt;/dt&gt;
+     &lt;dd&gt;King Kong&lt;/dd&gt;
+   &lt;dt&gt;Year&lt;/dt&gt;
+     &lt;dd&gt;Twenty Fifteen&lt;/dd&gt;
+   &lt;dt&gt;Location&lt;/dt&gt;
+     &lt;dd&gt;Redwood City, CA, United States&lt;/dd&gt;
+ &lt;/dl&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+        </article>
+        <footer class="kss-footer">
+          <div>Created using <a href="https://github.com/hughsk/kss-node">kss-node</a> and <a href="https://github.com/htanjo/kss-node-template">kss-node-template</a>.</div>
+        </footer>
+      </div>
+    </div>
+    <script src="public/kss.js"></script>
+    <script src="public/jquery-1.9.1.min.js"></script>
+    <script src="public/bootstrap.min.js"></script>
+    <!--[if gt IE 8]><!-->
+    <script src="public/rainbow.min.js"></script>
+    <!--<![endif]-->
+    <script src="public/main.js"></script>
+
+    <!-- numenta custom start -->
+    </main>
+    <!-- numenta custom end -->
+
+  </body>
+</html>

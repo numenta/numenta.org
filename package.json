@@ -1,0 +1,63 @@
+{
+  "name": "numenta.org",
+  "version": "0.0.1",
+  "description": "Numenta.org NuPIC Website",
+  "scripts": {
+    "build": "npm install && npm run support && npm run generate",
+    "clean": "rm -Rf _site/*",
+    "dev": "npm install && npm run support && npm run serve",
+    "generate": "bundle exec jekyll build --config _config.yml,_config.dev.yml",
+    "guide": "kss-node --config styleguide/_config/config.json",
+    "linkcheck": "gulp linkcheck",
+    "serve": "bundle exec jekyll serve --config _config.yml,_config.dev.yml",
+    "sitemap": "gulp sitemap",
+    "support": "npm run guide && npm run sitemap",
+    "test": "npm run webtest && npm run linkcheck",
+    "webtest": "PHANTOMJS_EXECUTABLE=`npm bin`/phantomjs gulp webtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/numenta/numenta.org.git"
+  },
+  "keywords": [
+    "NuPIC",
+    "Numenta",
+    "Platform",
+    "Intelligent",
+    "Computing",
+    "Machine",
+    "Intelligence",
+    "Hierarchical",
+    "Temporal",
+    "Memory",
+    "HTM"
+  ],
+  "author": "Numenta",
+  "bugs": {
+    "url": "https://github.com/numenta/numenta.org/issues"
+  },
+  "homepage": "http://numenta.org",
+  "dependencies": {
+    "bootstrap-sass": "3.3.4",
+    "font-awesome": "4.3.0",
+    "handlebars": "3.0.3",
+    "jquery": "2.1.4",
+    "open-sands": "1.0.3",
+    "platform": "1.3.0",
+    "tablesorter": "2.22.1"
+  },
+  "devDependencies": {
+    "casper-chai": "0.2.1",
+    "casperjs": "1.1.0-beta3",
+    "chai": "2.3.0",
+    "check-pages": "0.8.0",
+    "gulp": "3.8.11",
+    "gulp-sitemap": "2.1.0",
+    "gulp-tap": "0.1.3",
+    "gulp-webserver": "0.9.1",
+    "kss": "2.1.0",
+    "mocha": "2.2.4",
+    "mocha-casperjs": "0.5.3",
+    "phantomjs": "1.9.16"
+  }
+}

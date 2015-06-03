@@ -1,0 +1,13 @@
+/**
+ * Post item List Pages (Blog, Media, News, Events, etc.)
+ */
+main > section ul.articles { // item list
+  border-top: 1px solid $color-gray-lite;
+  margin-left: 0;
+  padding-left: 0;
+
+  > li { // item
+    border-bottom: 1px solid $color-gray-lite;
+    padding: 3rem 0;
+  }
+}

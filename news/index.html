@@ -1,16 +1,22 @@
 ---
 layout: default
-title: Numenta.org News Items
+redirect_from: "/news/archive.html"
+styles:
+  - "/assets/css/list.css"
+  - "/assets/css/item.css"
+title: News
 ---
 
-<div id="jump-menu"></div>
+<h1>{{ page.title }}</h1>
 
-{% for post in site.categories.news limit:3 %}
-<section>
-    <h3 class="date">{{ post.date | date_to_string }}</h3>
-    <h2 id="item-{{ forloop.index }}"><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.content }}
-</section>
-{% endfor %}
+<ul class="list-unstyled articles">
+  {% for post in site.categories.news %}
+    <li>
+      {% include base/listitem.html %}
+    </li>
+  {% endfor %}
+</ul>
 
-<script src="{{ site.baseurl }}/javascripts/jump-menu.js"></script>
+<a href="{{ site.baseurl }}{{ site.data.url.index }}">
+  <i class="fa fa-fw fa-angle-left"></i> Back to Home
+</a>

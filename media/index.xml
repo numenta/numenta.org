@@ -1,0 +1,21 @@
+---
+layout:
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ site.title }} Media</title>
+		<description>{{ site.tagline }} Media</description>
+		<link>{{ site.baseurl }}{{ site.data.url.media }}</link>
+		<atom:link href="{{ site.baseurl }}{{ site.data.url.rss.media }}" rel="self" type="application/rss+xml" />
+		{% for post in site.categories.media limit:10 %}
+			<item>
+				<title>{{ post.title }}</title>
+				<description>{{ post.content | xml_escape }}</description>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ site.baseurl }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.baseurl }}{{ post.url }}</guid>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

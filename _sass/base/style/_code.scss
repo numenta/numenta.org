@@ -1,0 +1,84 @@
+@import 'base/style/syntax'; // pygments+jekyll syntax highlighting
+
+/**
+ * Code
+ *
+ * Inline code snippets, keyboard user input display, blocks of pre-formatted
+ *  text, highlighted code via Jekyll+Pygments, sample code output, etc.
+ *
+ * This section will roughly follow the Bootstrap Code CSS outline:
+ *  http://getbootstrap.com/css/#code
+ *
+ * Styleguide: 3.0
+ */
+
+
+/**
+ * Block
+ *
+ * A block of syntax-highlighted code wrapped with `<pre>` tags. If inside
+ *  a Liquid template, you can use the Pygments syntax highlighting style
+ *  `{% highlight lang %}`. Learn more:
+ *  http://jekyllrb.com/docs/templates/#code-snippet-highlighting
+ *
+ * Markup:
+ *  <pre>
+ *    var name = 'Vito';
+ *    if(name.length > 10) return;
+ *  </pre>
+ *
+ * Styleguide: 3.1
+ */
+pre {
+  font-size: 95%;
+}
+
+/**
+ * Inline
+ *
+ * Wrap inline snippets of code with `<code>`.
+ *
+ * Markup:
+ *  There was a bug in the <code>getDataHandler()</code> class method.
+ *
+ * Styleguide: 3.2
+ */
+code {
+  white-space: pre !important;
+}
+
+/**
+ * User Input
+ *
+ * Use the `<kbd>` tag to indicate input that is typically entered via keyboard.
+ *
+ * Markup:
+ *  To exit press the <kbd>ESC</kbd> or <kbd>q</kbd> keys.
+ *
+ * Styleguide: 3.3
+ */
+kbd {}
+
+/**
+ * Variables
+ *
+ * For indicating variables use the `<var>` tag.
+ *
+ * Markup:
+ *  <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
+ *
+ * Styleguide: 3.4
+ */
+var {}
+
+/**
+ * Output
+ *
+ * For indicating blocks sample output from a program use the `<samp>` tag.
+ *
+ * Markup:
+ *  <samp>An error occured, please try running me again.</samp>
+ *
+ * Styleguide: 3.5
+ */
+samp {}

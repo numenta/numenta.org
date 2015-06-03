@@ -1,21 +1,22 @@
 ---
 layout: default
-title: Numenta.org Blog
+redirect_from: "/blog/archive.html"
+styles:
+  - "/assets/css/list.css"
+  - "/assets/css/item.css"
+title: Blog
 ---
 
-<div id="jump-menu"></div>
+<h1>{{ page.title }}</h1>
 
-{% for post in site.categories.blog limit:3 %}
-<section>
-    <h3 class="date">{{ post.date | date_to_string }}</h3>
-    <h2 id="item-{{ forloop.index }}"><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.content }}
-</section>
+<ul class="list-unstyled articles">
+  {% for post in site.categories.blog %}
+    <li>
+      {% include base/listitem.html %}
+    </li>
+  {% endfor %}
+</ul>
 
-<section>
-    <hr/>
-    <h3 class="date"><a href="#jump-menu">Top</a></h3>
-</section>
-{% endfor %}
-
-<script src="{{ site.baseurl }}/javascripts/jump-menu.js"></script>
+<a href="{{ site.baseurl }}{{ site.data.url.index }}">
+  <i class="fa fa-fw fa-angle-left"></i> Back to Home
+</a>

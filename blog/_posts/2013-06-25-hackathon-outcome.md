@@ -1,8 +1,9 @@
 ---
-layout: blogpost
-title: Hackathon Outcome
+author: Matthew Taylor
 category: blog
+layout: item
 redirect_from: "/news/2013/06/25/hackathon-outcome.html"
+title: Hackathon Outcome
 ---
 
 The first NuPIC Hackathon occurred over the past weekend, ending with eight demo applications from ten different participants. Even though there were some struggles getting NuPIC building and running on different platforms (we anticipated that), I consider this event a success based on the number of demonstrations ready within 24 hours.
@@ -35,7 +36,7 @@ An awful lot of interesting conversations occurred. If you jump into any of the 
 
 ## Demonstrations
 
-The demonstrations in their entirety are [here](http://www.youtube.com/watch?v=_bFmvlLmvcY#t=10m50s), but it might be easier for you to navigate by project. I've linked each demo individually below. 
+The demonstrations in their entirety are [here](http://www.youtube.com/watch?v=_bFmvlLmvcY#t=10m50s), but it might be easier for you to navigate by project. I've linked each demo individually below.
 
 <table>
     <tbody>
@@ -43,7 +44,7 @@ The demonstrations in their entirety are [here](http://www.youtube.com/watch?v=_
         <th id="erik">
             <a href="#erik">Erik Blas</a><br/><br/>
             IR sensor predictions<br/>
-            <a href="https://github.com/ravaa/nupic/tree/master/predipic">source code</a>    
+            <a href="https://github.com/ravaa/nupic/tree/master/predipic">source code</a>
         </th>
         <td>
             <iframe class="youtube-player" type="text/html" width="400" height="285" src="http://www.youtube.com/embed/_bFmvlLmvcY?start=725" allowfullscreen="allowfullscreen" frameborder="0">
@@ -76,7 +77,7 @@ The demonstrations in their entirety are [here](http://www.youtube.com/watch?v=_
         <th id="scott">
             <a href="#scott">Scott Purdy</a><br/><br/>
             Streaming CPU Predictions<br/>
-            <a href="https://github.com/numenta/nupic/tree/master/examples/opf/clients/cpu">source code</a>    
+            <a href="https://github.com/numenta/nupic/tree/master/examples/opf/clients/cpu">source code</a>
         </th>
         <td>
             <iframe class="youtube-player" type="text/html" width="400" height="285" src="http://www.youtube.com/embed/_bFmvlLmvcY?start=2200" allowfullscreen="allowfullscreen" frameborder="0">
@@ -87,7 +88,7 @@ The demonstrations in their entirety are [here](http://www.youtube.com/watch?v=_
         <th id="jin-danny-stan">
             <a href="#jin-danny-stan">Jin Pan, Danny Bankman, Stanislav Nikolov</a><br/><br/>
             Song Learning<br/>
-            <a href="https://github.com/snikolov/nupic/tree/master/examples/opf/experiments/multistep/midi">source code</a>    
+            <a href="https://github.com/snikolov/nupic/tree/master/examples/opf/experiments/multistep/midi">source code</a>
         </th>
         <td>
             <iframe class="youtube-player" type="text/html" width="400" height="285" src="http://www.youtube.com/embed/_bFmvlLmvcY?start=2460" allowfullscreen="allowfullscreen" frameborder="0">
@@ -109,7 +110,7 @@ The demonstrations in their entirety are [here](http://www.youtube.com/watch?v=_
         <th id="ryan">
             <a href="#ryan">Ryan Elisei</a><br/><br/>
             Traffic Predictions<br/>
-            <a href="https://github.com/ryaneliseislalom/NuPIC">source code</a>    
+            <a href="https://github.com/ryaneliseislalom/NuPIC">source code</a>
         </th>
         <td>
             <iframe class="youtube-player" type="text/html" width="400" height="285" src="http://www.youtube.com/embed/_bFmvlLmvcY?start=4210" allowfullscreen="allowfullscreen" frameborder="0">
@@ -132,11 +133,11 @@ The demonstrations in their entirety are [here](http://www.youtube.com/watch?v=_
 <br/>
 <br/>
 
-We were so happy with the hacks, we gave everyone who came up with one a [raspberry pi](http://www.raspberrypi.org/) (and we'll be working on getting NuPIC to [build on one](https://issues.numenta.org/browse/NPC-141)!). 
+We were so happy with the hacks, we gave everyone who came up with one a [raspberry pi](http://www.raspberrypi.org/) (and we'll be working on getting NuPIC to [build on one](https://issues.numenta.org/browse/NPC-141)!).
 
 ## Thank you!
 
-We had a great time hosting this hackathon, and we can't wait to do it again. Additionally, we got really valuable feedback from all the participants on how we can improve NuPIC for all our users and contributors. Don't doubt that we'll be taking all your comments and critiques into consideration as we continue to mature our open source offering. 
+We had a great time hosting this hackathon, and we can't wait to do it again. Additionally, we got really valuable feedback from all the participants on how we can improve NuPIC for all our users and contributors. Don't doubt that we'll be taking all your comments and critiques into consideration as we continue to mature our open source offering.
 
 If you are interesting in joining our next hackathon, please [sign up for our mailing list](http://lists.numenta.org/mailman/listinfo/nupic_lists.numenta.org), were I'll continue to post notifications about future events.
 

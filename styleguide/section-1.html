@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>NuPIC (http://numenta.org) Living Styleguide (kss-node)</title>
+    <meta name="description" content="" />
+    <meta name="generator" content="kss-node" />
+    <link rel="stylesheet" href="public/kss.css" />
+    <link rel="stylesheet" href="/assets/css/base.css">
+
+    <!--[if lt IE 9]>
+    <script src="public/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body id="kss-node">
+
+    <!-- numenta custom start -->
+    <main>
+    <!-- numenta custom end -->
+
+    <div class="kss-wrapper">
+      <div class="kss-sidebar">
+        <div class="kss-sidebar-inner">
+          <header class="kss-header">
+            <h1 class="kss-doc-title"><a href="./">Numenta.org Styleguide</a></h1>
+          </header>
+          <nav class="kss-nav">
+            <ul class="kss-menu" data-kss-ref="1">
+              <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Layout</span></a></li>
+              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Typography</span></a></li>
+              <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Code</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Tables</span></a></li>
+              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Buttons</span></a></li>
+              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Icons</span></a></li>
+              <li class="kss-menu-item"><a href="section-7.html"><span class="kss-ref">7</span><span class="kss-name">Popovers</span></a></li>
+              <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Alerts</span></a></li>
+              <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Media</span></a></li>
+              <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Wells</span></a></li>
+            </ul>
+            <ul class="kss-menu-child">
+              <li class="kss-menu-item"><a href="#section-1.1"><span class="kss-ref">1.1</span><span class="kss-name">Header</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.2"><span class="kss-ref">1.2</span><span class="kss-name">Content</span></a></li>
+              <li class="kss-menu-item"><a href="#section-1.3"><span class="kss-ref">1.3</span><span class="kss-name">Footer</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="kss-content">
+        <article class="kss-article">
+          <section id="section-1" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">1</span> Layout</h1>
+            <div class="kss-description">
+              <p>The general layout and structure of this website: header, body and main
+ content, and footer. Each section/module will have it&#39;s own style elsewhere.</p>
+<p>Most of our Layout is controlled by Twitter Bootstrap responsive framework:
+ <a href="http://getbootstrap.com/">http://getbootstrap.com/</a></p>
+
+            </div>
+          </section>
+          <section id="section-1.1" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.1</span> Header</h1>
+            <div class="kss-description">
+              <p>The header of the website contains branding info, navigational links, and
+ gives the user a &quot;Home&quot; to always return to on the site. The header will
+ be styled in a way to promote the Numenta/NuPIC branding. We will use a
+ fixed-position header, always at top of client window.</p>
+<p>Our header is instance of the Bootstrap NavBar component:
+ <a href="http://getbootstrap.com/components/#navbar">http://getbootstrap.com/components/#navbar</a></p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <header>This is a bare Header</header>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;header&gt;This is a bare Header&lt;/header&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-1.2" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.2</span> Content</h1>
+            <div class="kss-description">
+              <p>This is the main content of the webpage, sandwiched between Header and
+ Footer, wrapping a <code>&lt;main&gt;</code> article which contains <code>&lt;section&gt;</code>s.
+ Each <code>&lt;section&gt;</code> has a white or lighter background color to ensure a global
+ default-like user experience. The bottom of each <code>&lt;section&gt;</code> has a small
+ color-gradient transition with a CSS-down arrow to keep the eye moving
+ down the page to the next section.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <main>
+   <section>
+     This is a bare main content section
+   </section>
+   <div class="arrow-down"></div>
+ </main>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;main&gt;
+   &lt;section&gt;
+     This is a bare main content section
+   &lt;/section&gt;
+   &lt;div class=&quot;arrow-down&quot;&gt;&lt;/div&gt;
+ &lt;/main&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-1.3" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">1.3</span> Footer</h1>
+            <div class="kss-description">
+              <p>The footer restates everything in the Header, but in a simple and condensed
+ manner. It is mostly for navigation after the user is finished reading
+ the document. It also contains legalese and copyright information.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <footer>This is a bare Footer</footer>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;footer&gt;This is a bare Footer&lt;/footer&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+        </article>
+        <footer class="kss-footer">
+          <div>Created using <a href="https://github.com/hughsk/kss-node">kss-node</a> and <a href="https://github.com/htanjo/kss-node-template">kss-node-template</a>.</div>
+        </footer>
+      </div>
+    </div>
+    <script src="public/kss.js"></script>
+    <script src="public/jquery-1.9.1.min.js"></script>
+    <script src="public/bootstrap.min.js"></script>
+    <!--[if gt IE 8]><!-->
+    <script src="public/rainbow.min.js"></script>
+    <!--<![endif]-->
+    <script src="public/main.js"></script>
+
+    <!-- numenta custom start -->
+    </main>
+    <!-- numenta custom end -->
+
+  </body>
+</html>

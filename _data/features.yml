@@ -1,0 +1,30 @@
+-
+  name: Continuous Online Learning
+  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  icon: fa-refresh
+  link: "#"
+-
+  name: Temporal and Spatial Patterns
+  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  icon: fa-clock-o
+  link: "#"
+-
+  name: Realtime Streaming Data
+  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  icon: fa-forward
+  link: "#"
+-
+  name: Prediction and Modeling
+  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  icon: fa-line-chart
+  link: "#"
+-
+  name: Leading Anomaly Detection
+  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  icon: fa-heartbeat
+  link: "#"
+-
+  name: Hierarchical Temporal Memory
+  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  icon: fa-sitemap
+  link: "#"

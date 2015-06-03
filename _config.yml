@@ -1,22 +1,78 @@
-title: NuPIC
-tagline: Numenta&nbsp;Platform&nbsp;for Intelligent&nbsp;Computing
+#
+# Numenta.org GitHub Pages Jekyll Config
+# http://jekyllrb.com/docs/configuration/
+#
 
-baseurl: http://numenta.org
+### about
 
-future: false
+baseurl:  http://numenta.org  # production
+#baseurl: /numenta.org        # staging
 
-markdown: Kramdown
+title:    NuPIC
+tagline:  Numenta Platform for Intelligent Computing
 
-name: NuPIC
-description: Numenta Platform for Intelligent Computing
+company:    Numenta
+copyright:  Copyright ©
 
-exclude: [vendor]
+### paths
 
-safe: true
-lsi: false
-highlighter: pygments
-source: .
+data_source:  ./_data
+destination:  ./_site
+#include_dir: ./_includes # gh-pages
+layouts:      ./_layouts
+plugins:      ./_plugins
+sass_dir:     ./_sass
+source:       . # gh-pages
 
-gems:
-  - jekyll-redirect-from
+### settings
 
+encoding:     'utf-8'
+future:       true # events
+gems:         [ 'jekyll-redirect-from' ]
+highlighter:  pygments
+lsi:          false # gh-pages
+markdown:     kramdown
+safe:         true # gh-pages
+timezone:     America/Los_Angeles
+
+### plugins
+
+kramdown:
+  hard_wrap: false
+  input: GFM # github-flavor
+
+syntax-highlighting:
+  enabled: true
+
+### inclusions/exclusions
+
+exclude:
+- "_config.yml"
+- "CNAME"
+- "Gemfile"
+- "Gemfile.lock"
+- "gulpfile.js"
+- "npm-debug.log"
+- "package.json"
+- "README.md"
+- "TODO.md"
+- "_data"
+- "_includes"
+- "_layouts"
+- "_sass"
+- "_site"
+- "node_modules/.bin"
+- "node_modules/casper-chai"
+- "node_modules/casperjs"
+- "node_modules/chai"
+- "node_modules/check-pages"
+- "node_modules/gulp"
+- "node_modules/gulp-sitemap"
+- "node_modules/gulp-tap"
+- "node_modules/gulp-webserver"
+- "node_modules/kss"
+- "node_modules/mocha"
+- "node_modules/mocha-casperjs"
+- "node_modules/phantomjs"
+- "test"
+- "vendor"

@@ -1,7 +1,8 @@
 ---
-layout: blogpost
-title: Numenta at OSCON
+author: Matthew Taylor
 category: blog
+layout: item
+title: Numenta at OSCON
 ---
 
 <div align="center">
@@ -32,7 +33,7 @@ There was a lot of interest in the brain-inspired technology behind NuPIC, as de
 
 > The most interesting keynote, though, was from Numenta.  ... The science is beyond me, but the demo and keynote was great, and you can (should) watch it on YouTube.  I went to their panel later, and they recommended Jeff’s book On Intelligence as a primer for those interested.  There are code samples (in Python!) with the NuPIC library up on their github account.
 
-Soon after Jeff's talk, [Carin Meier](https://twitter.com/carinmeier) presented about [The Joy of Flying Robots with Clojure](http://www.oscon.com/oscon2013/public/schedule/detail/29559), and of course the audience made some typical associations. 
+Soon after Jeff's talk, [Carin Meier](https://twitter.com/carinmeier) presented about [The Joy of Flying Robots with Clojure](http://www.oscon.com/oscon2013/public/schedule/detail/29559), and of course the audience made some typical associations.
 
 <div align="center">
 
@@ -45,7 +46,7 @@ Soon after Jeff's talk, [Carin Meier](https://twitter.com/carinmeier) presented 
 </div>
 <br/>
 
-Scott and I also presented [a technical session](http://www.oscon.com/oscon2013/public/schedule/detail/30342) about [NuPIC]({{ site.baseurl }}/nupic.html). OSCON staff have not made the video available yet, but it is supposed to be available sometime in November. 
+Scott and I also presented [a technical session](http://www.oscon.com/oscon2013/public/schedule/detail/30342) about [NuPIC]({{ site.baseurl }}{{ site.data.url.index }}). OSCON staff have not made the video available yet, but it is supposed to be available sometime in November.
 
 #### <a href="http://www.youtube.com/watch?v=5r1vZ1ymrQE" rel="prettyPhoto" title="NuPIC at OSCON 2013">Watch the Introduction to NuPIC video here.</a>
 
@@ -60,7 +61,7 @@ At some point during the conference, Simon Phipps from [Twit.tv](http://twit.tv/
 
 We also had the opportunity to hold a Birds of a Feather (BOF) session, which drew around 30 people and lasted for over 90 minutes. Although I hadn't thought of recording this session, a persistent community member (you know who you are) prodded me into an ad-hoc A/V session, and I managed to get a <a href="http://www.youtube.com/watch?v=Xr2Vtom3TcU" rel="prettyPhoto" title="Intelligent Computing BOF OSCON 2013 with Jeff Hawkins">somewhat-digestible video online</a>. Sorry for the awful audio, but this was my first ad-hoc live-streaming experience. I promise, it will be better next time!
 
-All-in-all, OSCON was great fun and a wonderful way to spread the word about NuPIC and our open source community. We even got a chance to meet a few friends from our mailing list who lived in the Portland area. Thanks to everyone who made it to the BOF sessions and showed interested in our technology. 
+All-in-all, OSCON was great fun and a wonderful way to spread the word about NuPIC and our open source community. We even got a chance to meet a few friends from our mailing list who lived in the Portland area. Thanks to everyone who made it to the BOF sessions and showed interested in our technology.
 
 
 > Matt Taylor <br/>
@@ -70,5 +71,5 @@ All-in-all, OSCON was great fun and a wonderful way to spread the word about NuP
 [Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/1m2hi6/numenta_at_oscon/)
 
 <script async="async" src="//platform.twitter.com/widgets.js" charset="utf-8">
-    
+
 </script>

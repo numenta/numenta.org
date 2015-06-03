@@ -1,12 +1,11 @@
-Frequently Asked Questions
-===========================
+# Frequently Asked Questions
 
-* [Is there a specific application for NuPIC?](#is-there-a-specific-application-for-nupic)
-* [What's the difference between your contributor license and Apache's?](#whats-the-difference-between-your-contributor-license-and-apaches)
-* [What's the difference between this and your old offering?](#whats-the-difference-between-this-and-your-old-offering)
-* [Can I add an external library to NuPIC?](#can-i-add-an-external-library-to-nupic)
-* [Does NuPIC implement hierarchy?](#does-nupic-implement-hierarchy)
-* [What is the difference between HTM and CLA?](#what-is-the-difference-between-htm-and-cla)
+* <i></i> [Is there a specific application for NuPIC?](#is-there-a-specific-application-for-nupic)
+* <i></i> [What's the difference between your contributor license and Apache's?](#whats-the-difference-between-your-contributor-license-and-apaches)
+* <i></i> [What's the difference between this and your old offering?](#whats-the-difference-between-this-and-your-old-offering)
+* <i></i> [Can I add an external library to NuPIC?](#can-i-add-an-external-library-to-nupic)
+* <i></i> [Does NuPIC implement hierarchy?](#does-nupic-implement-hierarchy)
+* <i></i> [What is the difference between HTM and CLA?](#what-is-the-difference-between-htm-and-cla)
 
 ## Is there a specific application for NuPIC?
 
@@ -37,7 +36,7 @@ The algorithmic mechanism for creating an effective learned spatiotemporal hiera
 
 The neocortex is the seat of intelligent thought in the mammalian brain. High level vision, hearing, touch, movement, language, and planning are all performed by the neocortex. Given such a diverse suite of cognitive functions, you might expect the neocortex to implement an equally diverse suite of specialized neural algorithms. This is not the case. The neocortex displays a remarkably uniform pattern of neural circuitry. The biological evidence suggests that the neocortex implements a common set of algorithms to perform many different intelligence functions.
 
-Hierarchical Temporal Memory (HTM) is a term coined by Jeff Hawkins to describe the overall space of systems that capture the structural and algorithmic properties of the neocortex. Many of the key properties concerning HTM algorithms were described in the book On Intelligence. These properties include continuous learning, sequence prediction, hierarchy, feedback, attention, and sensorimotor control. The [HTM whitepaper]({{ site.baseurl }}/htm-white-paper.html) introduced a new property, namely Sparse Distributed Representations (SDR).
+Hierarchical Temporal Memory (HTM) is a term coined by Jeff Hawkins to describe the overall space of systems that capture the structural and algorithmic properties of the neocortex. Many of the key properties concerning HTM algorithms were described in the book On Intelligence. These properties include continuous learning, sequence prediction, hierarchy, feedback, attention, and sensorimotor control. The [HTM whitepaper]({{ site.data.url.ext.htmpaper }}) introduced a new property, namely Sparse Distributed Representations (SDR).
 
 There could be many different HTM algorithms but so far no one has effectively implemented the full set of properties in a fully working system. The Cortical Learning Algorithm (CLA) is a specific algorithm that covers some of the key aspects of HTM. The CLA uses SDR's, is a continuously learning system, can learn complex sequences and make temporal predictions. There are strong relationships to what is currently known about the laminar structure in a single layer of the neocortex. CLA does not cover all the properties of HTM but we believe it forms a strong foundation for a more complete implementation.
 

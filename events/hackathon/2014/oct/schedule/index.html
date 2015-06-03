@@ -11,10 +11,7 @@ h4 {
 }
 </style>
 <section>
-  {% capture content %}
-  {% include content/hackathon/2014/oct/schedule.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
+  {% include base/markdown.html file='hackathon/2014/oct/schedule.md' %}
 </section>
 
 <script src="{{ site.baseurl }}/javascripts/jump-menu.js" type="text/javascript"></script>

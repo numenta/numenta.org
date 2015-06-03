@@ -3,10 +3,7 @@ layout: default
 title: Numenta Licenses
 ---
 <section>
-  {% capture licenses %}
-  {% include content/licenses.md %}
-  {% endcapture %}
-  {{ licenses | markdownify }}
+  {% include base/markdown.html file='licenses.md' %}
 </section>
 
 <script src="{{ site.baseurl }}/javascripts/jump-menu.js"></script>

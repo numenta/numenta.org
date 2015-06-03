@@ -1,8 +1,9 @@
 ---
-layout: blogpost
-title: First NuPIC Hackathon
+author: Matthew Taylor
 category: blog
+layout: item
 redirect_from: "/news/2013/06/10/hackathon-june-2013.html"
+title: First NuPIC Hackathon
 ---
 
 We're having a NuPIC Hackathon on June 21, and we have about five spaces available for more participants. *First come, first served!* It will be in the San Francisco Bay Area. If you are interested in attending, please contact me directly at <matt@numenta.org>.

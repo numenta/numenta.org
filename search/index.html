@@ -1,0 +1,21 @@
+---
+layout: default
+redirect_from: "/search.html"
+styles:
+  - "/assets/css/search.css"
+title: NuPIC Search
+---
+
+<section>
+  <h1>Search NuPIC Web Content</h1>
+  <div class="row">
+    <div class="col-md-8">
+      {% include search/search.html %}
+    </div>
+    <div class="col-md-4">
+      <div class="well">
+        {% include base/markdown.html file='search.md' %}
+      </div>
+    </div>
+  </div>
+</section>

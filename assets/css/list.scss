@@ -1,0 +1,12 @@
+---
+---
+
+/**
+ * List Page (Blog, News, etc.) CSS/SASS visual stylesheets
+ */
+
+$baseurl: "{{ site.baseurl }}";
+
+@import 'base/variables';
+
+@import 'list';

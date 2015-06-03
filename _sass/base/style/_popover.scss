@@ -1,0 +1,16 @@
+/**
+ * Popovers
+ *
+ * Add small overlays of content, like those on the iPad, to any element for
+ *  housing secondary information.
+ *
+ * See also: http://getbootstrap.com/javascript/#popovers
+ *
+ * Markup:
+ *  <a href="#" data-toggle="popover" title="Popover Title" data-content="Popover Content" role="button">Click To Toggle</a>
+ *
+ * Styleguide: 7.0
+ */
+.popover {
+  width: 400px;
+}

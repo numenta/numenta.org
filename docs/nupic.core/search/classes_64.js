@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dimensions',['Dimensions',['../classnupic_1_1_dimensions.html',1,'nupic']]]
+  ['dimensions',['Dimensions',['../classnta_1_1_dimensions.html',1,'nta']]]
 ];

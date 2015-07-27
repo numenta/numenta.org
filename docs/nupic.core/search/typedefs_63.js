@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['callbackitem',['callbackItem',['../classnupic_1_1_network.html#ab725010cfbf9f2889f791c0c3bca6385',1,'nupic::Network']]],
-  ['coordinate',['Coordinate',['../namespacenupic.html#a5f617cd0b2e8e14ee7339206e0670941',1,'nupic']]]
+  ['callbackitem',['callbackItem',['../classnta_1_1_network.html#a1bb1c9cd4ebacfa7454948a52f788127',1,'nta::Network']]],
+  ['coordinate',['Coordinate',['../namespacenta.html#a102586c290f7b8dd43ab1fafef524485',1,'nta']]]
 ];

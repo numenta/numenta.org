@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['cellconfidence',['cellConfidence',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a35612d7cc6005f9ec28222158b1b517b',1,'nupic::research::TP::TP']]],
-  ['cells',['cells',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a3c69c6a1fc6af18d0e9a0773de196df5',1,'nupic::research::TP::TP']]],
-  ['cellspercolumn',['cellsPerColumn',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ab7cc70f9f73fce65efdc47fc987681c0',1,'nupic::research::TP::TP']]],
-  ['colconfidence',['colConfidence',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a41610d8d6dcc19a225e3fac826f4c6c7',1,'nupic::research::TP::TP']]],
-  ['collectsequencestats',['collectSequenceStats',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a21f21b9f2e7f76fa1547c9382d10e7ba',1,'nupic::research::TP::TP']]],
-  ['collectstats',['collectStats',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a375a99dc3f54eaf17af661537858fbc1',1,'nupic::research::TP::TP']]],
-  ['connectedperm',['connectedPerm',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a6e7d166246c82719443803b7fe8950bf',1,'nupic::research::TP::TP']]],
-  ['currentoutput',['currentOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#acac5aeb5541248288bdb589a576cf522',1,'nupic::research::TP::TP']]]
+  ['cellconfidence',['cellConfidence',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ab5a86bc6fbca36eb8e9f95fcdfdbb141',1,'nupic::research::TP::TP']]],
+  ['cells',['cells',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#adf9059cc7b73dbe8520ead3c00c623c6',1,'nupic::research::TP::TP']]],
+  ['cellspercolumn',['cellsPerColumn',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a70e59b5ef0c58fe2406477d0567d7974',1,'nupic::research::TP::TP']]],
+  ['colconfidence',['colConfidence',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a9231a1332169afb5fc6e0e3df1300d56',1,'nupic::research::TP::TP']]],
+  ['collectsequencestats',['collectSequenceStats',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ac614246d1d5f5029dfb7ac7ec93ec494',1,'nupic::research::TP::TP']]],
+  ['collectstats',['collectStats',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#af3e8d5af2923216cc7763ce6589f2901',1,'nupic::research::TP::TP']]],
+  ['connectedperm',['connectedPerm',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ae5ceb03a63791b9bc79454c2e0be588f',1,'nupic::research::TP::TP']]],
+  ['currentoutput',['currentOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a59499fe5d097fa034e95b3f2dc0a7c3e',1,'nupic::research::TP::TP']]]
 ];

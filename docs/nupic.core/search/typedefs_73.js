@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['size',['Size',['../namespacenupic.html#aabd79f02e7bed6d27bd6d82f46252870',1,'nupic']]],
-  ['splittermap',['SplitterMap',['../classnupic_1_1_input.html#a5b3a1fa2957bcac14e6eab73b5e14d8e',1,'nupic::Input']]]
+  ['size',['Size',['../namespacenta.html#a3071615515475954e3167f6c5dcc661a',1,'nta']]],
+  ['splittermap',['SplitterMap',['../classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2',1,'nta::Input']]]
 ];

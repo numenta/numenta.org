@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['handle',['Handle',['../namespacenupic.html#a08451422386e36d65f95e5a5675df2aa',1,'nupic']]]
+  ['handle',['Handle',['../namespacenta.html#ad91dbf918bb30dfc6f9f08045db52e36',1,'nta']]]
 ];

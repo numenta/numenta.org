@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['findlink',['findLink',['../classnupic_1_1_input.html#a66686ddc3e5a784398eb4387403b4530',1,'nupic::Input']]]
+  ['findlink',['findLink',['../classnta_1_1_input.html#a4c284cd9dbc093cd3c704736643c49dc',1,'nta::Input']]]
 ];

@@ -4,7 +4,9 @@ org.numenta.nupic.benchmarks
 org.numenta.nupic.datagen
 org.numenta.nupic.encoders
 org.numenta.nupic.examples
-org.numenta.nupic.examples.network
+org.numenta.nupic.examples.cortical_io
+org.numenta.nupic.examples.cortical_io.breakingnews
+org.numenta.nupic.examples.cortical_io.foxeats
 org.numenta.nupic.examples.qt
 org.numenta.nupic.examples.sp
 org.numenta.nupic.integration

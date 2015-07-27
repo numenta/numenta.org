@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loglevel',['LogLevel',['../namespacenupic.html#a42373a5a29ddd906c9948c9ed4e5cb03',1,'nupic']]]
+  ['loglevel',['LogLevel',['../namespacenta.html#a50ca7957941b2bd1ef0e4fb800311dd7',1,'nta']]]
 ];

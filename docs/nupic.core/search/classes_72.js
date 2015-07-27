@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['region',['Region',['../classnupic_1_1_region.html',1,'nupic']]]
+  ['region',['Region',['../classnta_1_1_region.html',1,'nta']]]
 ];

@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['radiusforspeed',['radiusForSpeed',['../classnupic_1_1encoders_1_1geospatial__coordinate_1_1_geospatial_coordinate_encoder.html#a2720196257824232f841d9f775df3a56',1,'nupic::encoders::geospatial_coordinate::GeospatialCoordinateEncoder']]],
-  ['read',['read',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#afcea8c9091d60bee0f6fb79abb6e1cca',1,'nupic::research::temporal_memory::TemporalMemory']]],
-  ['removesegmentupdate',['removeSegmentUpdate',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a647ca40adc3716c715d6083db3574746',1,'nupic::research::TP::TP']]],
-  ['reset',['reset',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a13463c21005956b949860ac0eda9b3e3',1,'nupic.research.TP10X2.TP10X2.reset()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a13463c21005956b949860ac0eda9b3e3',1,'nupic.research.TP.TP.reset()'],['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a13463c21005956b949860ac0eda9b3e3',1,'nupic.research.temporal_memory.TemporalMemory.reset()']]],
-  ['resetsequencestates',['resetSequenceStates',['../classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html#a7ecda56dff89a402d9e21730bd5f7226',1,'nupic::frameworks::opf::model::Model']]],
-  ['resetstats',['resetStats',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a3c5c0d71cd4c827f01109b3801194b5a',1,'nupic::research::TP::TP']]],
-  ['run',['run',['../classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html#aedcaade7dd45761ddcc3b3cc07005314',1,'nupic::frameworks::opf::model::Model']]]
+  ['remove',['remove',['../classnupic_1_1encoders_1_1arithmetic__encoder_1_1_bucket.html#a97e764861fd69598c96756461138cdf0',1,'nupic::encoders::arithmetic_encoder::Bucket']]],
+  ['removesegmentupdate',['removeSegmentUpdate',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ac2f856cdc92c1a38513c5c948cb41535',1,'nupic::research::TP::TP']]],
+  ['reset',['reset',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a08a3cce82a0a0dbca7e208ae8b042459',1,'nupic.research.TP10X2.TP10X2.reset()'],['../classnupic_1_1research_1_1_t_p_trivial_1_1_t_p_trivial.html#a9f607275ed665929821db40715f437fd',1,'nupic.research.TPTrivial.TPTrivial.reset()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ac653e7e1dc46d03ff665c25189f32550',1,'nupic.research.TP.TP.reset()']]],
+  ['resetstats',['resetStats',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a0e5d8cd7d374caea7812128e8633c0b0',1,'nupic::research::TP::TP']]]
 ];

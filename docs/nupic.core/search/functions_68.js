@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hasoutgoinglinks',['hasOutgoingLinks',['../classnupic_1_1_output.html#a649d9976a8ef3f673dbb3f17e0b0764d',1,'nupic::Output']]]
+  ['hasoutgoinglinks',['hasOutgoingLinks',['../classnta_1_1_output.html#a66357975f12852bd2c772a338369c5c9',1,'nta::Output']]]
 ];

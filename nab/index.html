@@ -75,6 +75,7 @@ styles:
             <ul>
                 <li>one header row</li>
                 <li>fields for "timestamp" (time at the end of the metric collection window) and "value" (the metric as either float or integer)</li>
+                <li>timestamp format is <code>yyyy-mm-dd hh:mm:ss</code></li>
             </ul>
         </li>
         <li>Anomaly labels &mdash; timestamps at which the anomalies start</li>
@@ -103,7 +104,7 @@ styles:
 
     <h4>DATASET CATEGORY</h4>
 
-    <p/> Attached with this entry are two data files of satellite data. These are station-keeping metrics for a Planet Labs “Dove”, an Earth-imagery cubesat [1,2] currently in orbit! The file <code>dove_array_temp.csv</code> contains 10,000 records of the satellite’s external temperature, where the metric is degrees Celsius. The file <code>dove_p.csv</code> is 6,610 records of the p-axis vector (in radians); this is one axis of a 4x1 quaternion that is used to orient the spacecraft [3]. Both files have a column for timestamps in <code>m/d/yy h:mm</code> format, and one column for the metric values. The accompanying JSON file <code>dove_labels.json</code> contains anomaly labels for both of these files in the NAB format, where timestamps denote the start of each anomaly. The temperature data shows three anomalies: the first and third anomalies are fluctuations in the normal periodicity that correspond to attitude correction maneuvers as the satellite rotates in its nadir-pointing orbit [4], and the spike anomaly is where the temperature sensor has been exposed to direct sunlight. The quaternion data shows four anomalies, each representing rotational drag of the spacecraft due to the solar arrays; these are deployed like wings from the spacecraft and feel a pushing force from solar rays. Also included are plots showing the data and anomaly points.
+    <p/> Attached with this entry are two data files of satellite data. These are station-keeping metrics for a Planet Labs “Dove”, an Earth-imagery cubesat [1,2] currently in orbit! The file <code>dove_array_temp.csv</code> contains 10,000 records of the satellite’s external temperature, where the metric is degrees Celsius. The file <code>dove_p.csv</code> is 6,610 records of the p-axis vector (in radians); this is one axis of a 4x1 quaternion that is used to orient the spacecraft [3]. Both files have a column for timestamps in <code>yyyy-mm-dd hh:mm:ss</code> format, and one column for the metric values. The accompanying JSON file <code>dove_labels.json</code> contains anomaly labels for both of these files in the NAB format, where timestamps denote the start of each anomaly. The temperature data shows three anomalies: the first and third anomalies are fluctuations in the normal periodicity that correspond to attitude correction maneuvers as the satellite rotates in its nadir-pointing orbit [4], and the spike anomaly is where the temperature sensor has been exposed to direct sunlight. The quaternion data shows four anomalies, each representing rotational drag of the spacecraft due to the solar arrays; these are deployed like wings from the spacecraft and feel a pushing force from solar rays. Also included are plots showing the data and anomaly points.
 
     <ul class="footnotes">
         <li id="foot_ds1">[1] <a href="https://www.planet.com/" target="_blank">https://www.planet.com/</a></li>

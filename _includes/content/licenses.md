@@ -5,8 +5,7 @@
 Our core algorithms are [AGPL Version 3](http://www.gnu.org/licenses/agpl.html),
 but there are ways you can experiment with our technology without being
 constrained. We offer both a
-[commercial license option](mailto:sales@numenta.com?subject=Commercial%20License%20Inquiry)
-(more details soon) and a [trial license](trial/), which allows you to
+[commercial license option](mailto:sales@numenta.com?subject=Commercial%20License%20Inquiry) and a [trial license](trial/), which allows you to
 experiment temporarily without affecting your codebase with the AGPL, giving you
 time to decide whether a commercial license is worth it.
 
@@ -17,8 +16,9 @@ time to decide whether a commercial license is worth it.
 * <i></i> Commercial licenses are also available from
   [Numenta](mailto:sales@numenta.org).
 
-The goal of the license is to require that enhancements to NuPIC be released to
-the community.
+The goal of the license is to require that enhancements to NuPIC be released to the community.
+
+For more details on the types of licenses Numenta offers, including commercial licenses, refer to the [Numenta License Guide](http://numenta.com/assets/pdf/apps/licensing-guide.pdf).
 
 ## Patents
 

@@ -80,11 +80,6 @@ description: This is the one-stop location where details about all Numenta open
     - slug: numenta/hypersearch
       type: support
 
-    - slug: numenta/cortipy
-      type: support
-      travis: true
-      coverage: true
-
     # NuPIC applications
     - slug: numenta/numenta-apps
       type: app
@@ -94,19 +89,6 @@ description: This is the one-stop location where details about all Numenta open
       type: app
       travis: true
       coverage: true
-
-    - slug: nupic-community/nupic.studio
-      type: app
-      monitor: false
-
-    - slug: numenta/nupic.cerebro
-      type: app
-
-    - slug: numenta/nupic.cerebro2
-      type: app
-
-    - slug: numenta/nupic.cerebro2.server
-      type: app
 
     - slug: numenta/nupic.nlp-examples
       type: app

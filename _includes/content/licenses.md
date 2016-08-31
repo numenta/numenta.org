@@ -49,7 +49,7 @@ efforts to help us spread the word about this technology.
 
 We give you the rights to translate these materials under the following license:
 
-> **Copyright 2010 2011 2012 2013 Numenta, Inc.**
+> **Copyright 2010-2016 Numenta, Inc.**
 >
 > Numenta owns copyrights and patent rights on documentation related to
 > hierarchical temporal memory (HTM) and cortical learning algorithms (CLA).

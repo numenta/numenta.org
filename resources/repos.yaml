@@ -16,6 +16,7 @@ description: This is the one-stop location where details about all Numenta open
          badge: https://ci.appveyor.com/api/projects/status/4toemh0qtr21mk6b/branch/master?svg=true
          url: https://ci.appveyor.com/project/numenta-ci/nupic/branch/master
       coverage: true
+      bamboo: NUP-PY
 
     - slug: numenta/nupic.core
       type: primary
@@ -24,6 +25,7 @@ description: This is the one-stop location where details about all Numenta open
          badge: https://ci.appveyor.com/api/projects/status/px32pcil23vunml0/branch/master?svg=true
          url: https://ci.appveyor.com/project/numenta-ci/nupic-core/branch/master
       coverage: true
+      bamboo: NUP-CORE
 
     - slug: numenta/nupic-linux64
       type: primary
@@ -56,7 +58,7 @@ description: This is the one-stop location where details about all Numenta open
       deploy: "https://www.npmjs.org/package/sprinter-dash"
       monitor: false
 
-    - slug: "rhyolight/travis-foreman"
+    - slug: rhyolight/travis-foreman
       type: tooling
       travis: true
       coverage: true

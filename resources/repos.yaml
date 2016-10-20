@@ -27,12 +27,6 @@ description: This is the one-stop location where details about all Numenta open
       coverage: true
       bamboo: NUP-CORE
 
-    - slug: numenta/nupic-linux64
-      type: primary
-
-    - slug: numenta/nupic-darwin64
-      type: primary
-
     # Tooling repositories
     - slug: numenta/nupic.tools
       type: tooling
@@ -44,7 +38,7 @@ description: This is the one-stop location where details about all Numenta open
 
     - slug: numenta/nupic.regression
       type: tooling
-      travis: true
+      travis: false
 
     - slug: rhyolight/sprinter.js
       type: tooling
@@ -77,10 +71,7 @@ description: This is the one-stop location where details about all Numenta open
 
     - slug: numenta/nupic.research
       type: support
-      travis: true
-
-    - slug: numenta/hypersearch
-      type: support
+      travis: false
 
     # NuPIC applications
     - slug: numenta/numenta-apps

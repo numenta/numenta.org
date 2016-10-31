@@ -96,3 +96,9 @@ description: This is the one-stop location where details about all Numenta open
       type: port
       travis: true
       coverage: true
+
+    # For experiments with tooling
+    - slug: numenta/experiments
+      type: tooling
+      travis: false
+      coverage: false

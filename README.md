@@ -1,4 +1,10 @@
-# NuPIC Website Sourcecode
+# DEPRECATED
+
+New upcoming Numenta.org source is here:
+* http://github.com/numenta/numenta-web/
+
+
+## Old NuPIC Website Sourcecode
 
 This is the open source code for the NuPIC Website hosted at
 [http://numenta.org](http://numenta.org)
